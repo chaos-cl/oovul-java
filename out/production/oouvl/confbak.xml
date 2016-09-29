@@ -1,0 +1,1670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <rules>
+    <rule no="1" cve="CVE-2002-0391" vulName="Sun RPC XDR库xdr_array()函数整数溢出漏洞" ruleDesc="此漏洞不影响AIX" judgment="Sun RPC XDR库xdr_array()函数整数溢出漏洞(CVE-2002-0391)|此漏洞不影响AIX，{SERIES}">
+      <version name="version" value="AIX" />
+    </rule>
+    <rule no="2" cve="CVE-2014-1692" vulName="OpenSSH 'schnorr.c'远程内存破坏漏洞" ruleDesc="此漏洞不影响AIX" judgment="OpenSSH 'schnorr.c'远程内存破坏漏洞(CVE-2014-1692)|此漏洞不影响AIX，{SERIES}">
+      <version name="version" value="AIX" />
+    </rule>
+    <rule no="3" cve="CVE-2014-2653" vulName="OpenSSH verify_host_key函数 SSHFP DNS RR" ruleDesc="此漏洞不影响AIX" judgment="OpenSSH verify_host_key函数 SSHFP DNS RR(CVE-2014-2653)|此漏洞不影响AIX，{SERIES}">
+      <version name="version" value="AIX" />
+    </rule>
+    <rule no="4" cve="CVE-2014-2532" vulName="OpenSSH 权限许可和访问控制漏洞" ruleDesc="此漏洞不影响AIX" judgment="OpenSSH 权限许可和访问控制漏洞(CVE-2014-2532)|此漏洞不影响AIX，{SERIES}">
+      <version name="version" value="AIX" />
+    </rule>
+    <rule no="5" cve="CVE-2013-4548" vulName="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞" ruleDesc="此漏洞不影响AIX" judgment="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞(CVE-2013-4548)|此漏洞不影响AIX，{SERIES}">
+      <version name="version" value="AIX" />
+    </rule>
+    <rule no="6" cve="CVE-2010-5107" vulName="OpenSSH默认服务器配置拒绝服务漏洞" ruleDesc="此漏洞不影响AIX" judgment="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)|此漏洞不影响AIX，{SERIES}">
+      <version name="version" value="AIX" />
+    </rule>
+    <rule no="7" cve="CVE-1999-0634" vulName="SSH版本信息可被获取" ruleDesc="RedHat查不到相应的CVE编号" judgment="SSH版本信息可被获取(CVE-1999-0634)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="8" cve="CVE-1999-0103" vulName="检测到远端daytime服务正在运行中" ruleDesc="RedHat查不到相应的CVE编号" judgment="检测到远端daytime服务正在运行中(CVE-1999-0103)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="9" cve="CVE-1999-0638" vulName="检测到远端daytime服务正在运行中" ruleDesc="RedHat查不到相应的CVE编号" judgment="检测到远端daytime服务正在运行中(CVE-1999-0638)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="10" cve="CVE-1999-0632" vulName="检测到远端RPCBIND/PORTMAP正在运行中" ruleDesc="RedHat查不到相应的CVE编号" judgment="检测到远端RPCBIND/PORTMAP正在运行中(CVE-1999-0632)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="11" cve="CVE-1999-0614" vulName="FTP服务器版本信息可被获取" ruleDesc="RedHat查不到相应的CVE编号" judgment="FTP服务器版本信息可被获取(CVE-1999-0614)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="12" cve="CVE-2013-2361" vulName="HP System Management Homepage 跨站脚本漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 跨站脚本漏洞(CVE-2013-2361)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="13" cve="CVE-2013-2356" vulName="HP System Management Homepage 信息泄露漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 信息泄露漏洞(CVE-2013-2356)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="14" cve="CVE-2013-2360" vulName="HP System Management Homepage 远程拒绝服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 远程拒绝服务漏洞(CVE-2013-2360)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="15" cve="CVE-2013-4821" vulName="HP System Management Homepage 远程拒绝服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 远程拒绝服务漏洞(CVE-2013-4821)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="16" cve="CVE-2012-5217" vulName="HP System Management Homepage 远程未授权访问漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 远程未授权访问漏洞(CVE-2012-5217)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="17" cve="CVE-2013-2355" vulName="HP System Management Homepage 远程未授权访问漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 远程未授权访问漏洞(CVE-2013-2355)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="18" cve="CVE-2013-2363" vulName="HP System Management Homepage 远程信息泄露漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 远程信息泄露漏洞(CVE-2013-2363)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="19" cve="CVE-2013-2357" vulName="HPSystem Management Homepage 远程服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystem Management Homepage 远程服务漏洞(CVE-2013-2357)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="20" cve="CVE-2013-2358" vulName="HPSystem Management Homepage 远程服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystem Management Homepage 远程服务漏洞(CVE-2013-2358)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="21" cve="CVE-2013-2359" vulName="HPSystem Management Homepage 远程服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystem Management Homepage 远程服务漏洞(CVE-2013-2359)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="22" cve="CVE-2013-2360" vulName="HPSystem Management Homepage 远程服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystem Management Homepage 远程服务漏洞(CVE-2013-2360)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="23" cve="CVE-2013-4821" vulName="HPSystem Management Homepage 远程服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystem Management Homepage 远程服务漏洞(CVE-2013-4821)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="24" cve="CVE-2012-2012" vulName="HPSystemManagementHomepage多个安全漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystemManagementHomepage多个安全漏洞(CVE-2012-2012)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="25" cve="CVE-2013-6194" vulName="HP Storage Data Protector 安全漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP Storage Data Protector 安全漏洞(CVE-2013-6194)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="26" cve="CVE-2010-1586" vulName="HP系统管理主页RedirectUrl参数URI重新定向漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP系统管理主页RedirectUrl参数URI重新定向漏洞(CVE-2010-1586)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="27" cve="CVE-2011-1541" vulName="HP Systems Insight Manager访问限制绕过和任意代码执行漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP Systems Insight Manager访问限制绕过和任意代码执行漏洞(CVE-2011-1541)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="28" cve="CVE-2011-1540" vulName="HP Systems Insight Manager远程代码执行漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP Systems Insight Manager远程代码执行漏洞(CVE-2011-1540)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="29" cve="CVE-2010-3284" vulName="HP System Management Homepage未明漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage未明漏洞(CVE-2010-3284)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="30" cve="CVE-2010-3283" vulName="HP System Management Homepage开放重定向漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage开放重定向漏洞(CVE-2010-3283)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="31" cve="CVE-2010-3011" vulName="HP System Management Homepage未明HTTP响应截取攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage未明HTTP响应截取攻击漏洞(CVE-2010-3011)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="32" cve="CVE-2010-3009" vulName="HP System Management Homepage未明漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage未明漏洞(CVE-2010-3009)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="33" cve="CVE-2010-3012" vulName="HP System Management Homepage跨站脚本攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage跨站脚本攻击漏洞(CVE-2010-3012)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="34" cve="CVE-2009-1418" vulName="HP System Management Homepage未明跨站脚本攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage未明跨站脚本攻击漏洞(CVE-2009-1418)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="35" cve="CVE-2009-4185" vulName="HP System Management Homepage U “proxy/smhui/getuiinfo”跨站脚本攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage U “proxy/smhui/getuiinfo”跨站脚本攻击漏洞(CVE-2009-4185)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="36" cve="CVE-2009-4609" vulName="Mort Bay Jetty Dump Servlet '/dump/'的URI敏感信息泄露漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Mort Bay Jetty Dump Servlet '/dump/'的URI敏感信息泄露漏洞(CVE-2009-4609)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="37" cve="CVE-2009-4610" vulName="Mort Bay Jetty 多个跨站脚本攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Mort Bay Jetty 多个跨站脚本攻击漏洞(CVE-2009-4610)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="38" cve="CVE-2009-4611" vulName="Mort Bay Jetty 非打印字符backtrace数据溢出序列HTTP请求任意文件执行漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Mort Bay Jetty 非打印字符backtrace数据溢出序列HTTP请求任意文件执行漏洞(CVE-2009-4611)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="39" cve="CVE-2009-4612" vulName="Mort Bay Jetty WebApp JSP Snoop页多个跨站脚本攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Mort Bay Jetty WebApp JSP Snoop页多个跨站脚本攻击漏洞(CVE-2009-4612)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="40" cve="CVE-2001-0183" vulName="FreeBSD ipfw和ip6fw访问限制绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="FreeBSD ipfw和ip6fw访问限制绕过漏洞(CVE-2001-0183)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="41" cve="CVE-2006-4925" vulName="OpenSSH 'packet.c' 拒绝服务漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSH 'packet.c' 拒绝服务漏洞(CVE-2006-4925)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="42" cve="CVE-2007-0726" vulName="Apple Mac OS X SSH拒绝服务攻击漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Apple Mac OS X SSH拒绝服务攻击漏洞(CVE-2007-0726)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="43" cve="CVE-2007-2243" vulName="OpenSSH S/Key 远程信息泄露漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSH S/Key 远程信息泄露漏洞(CVE-2007-2243)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="44" cve="CVE-1999-0629" vulName="Identd服务检测漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Identd服务检测漏洞(CVE-1999-0629)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="45" cve="CVE-1999-0254" vulName="HP OpenView隐藏SNMP共同体串未授权访问漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP OpenView隐藏SNMP共同体串未授权访问漏洞(CVE-1999-0254)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="46" cve="CVE-1999-0516" vulName="SNMP社区名可推测漏洞&#xA;SNMP服务存在可写口令(CVE-1999-0516)" ruleDesc="RedHat查不到相应的CVE编号" judgment="SNMP社区名可推测漏洞&#xA;SNMP服务存在可写口令(CVE-1999-0516)(CVE-1999-0516)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="47" cve="CVE-1999-0517" vulName="Microsoft Windows NT 4.0 SNMP社区名称漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Microsoft Windows NT 4.0 SNMP社区名称漏洞(CVE-1999-0517)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="48" cve="CVE-2004-0311" vulName="APC SmartSlot Web/SNMP管理卡默认密码漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="APC SmartSlot Web/SNMP管理卡默认密码漏洞(CVE-2004-0311)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="49" cve="CVE-2004-1474" vulName="Symantec Enterprise Firewall/VPN默认公共串漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Symantec Enterprise Firewall/VPN默认公共串漏洞(CVE-2004-1474)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="50" cve="CVE-1999-0186" vulName="Solaris SNMP默认共同体串后门访问漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Solaris SNMP默认共同体串后门访问漏洞(CVE-1999-0186)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="51" cve="CVE-2010-0742" vulName="OpenSSL CMS结构处理内存破坏漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="OpenSSL CMS结构处理内存破坏漏洞(CVE-2010-0742)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="52" cve="CVE-2012-0553" vulName="Oracle MySQL yaSSL 不明细节缓冲区溢出漏洞" ruleDesc="此漏洞不影响RedHat" judgment="Oracle MySQL yaSSL 不明细节缓冲区溢出漏洞(CVE-2012-0553)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="53" cve="CVE-2014-0076" vulName="OpenSSL ECDSA 加密问题漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL ECDSA 加密问题漏洞(CVE-2014-0076)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="54" cve="CVE-2013-4559" vulName="lighttpd 本地提权漏洞" ruleDesc="此漏洞不影响RedHat" judgment="lighttpd 本地提权漏洞(CVE-2013-4559)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="55" cve="CVE-2012-2089" vulName="nginx ‘ngx_http_mp4_module.c’ 缓冲区溢出漏洞" ruleDesc="此漏洞不影响RedHat" judgment="nginx ‘ngx_http_mp4_module.c’ 缓冲区溢出漏洞(CVE-2012-2089)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="56" cve="CVE-2007-2440" vulName="Caucho Resin '\web-inf' 目录遍历漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Caucho Resin '\web-inf' 目录遍历漏洞(CVE-2007-2440)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="57" cve="CVE-2007-2441" vulName="Caucho Resin 多个信息泄露漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Caucho Resin 多个信息泄露漏洞(CVE-2007-2441)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="58" cve="CVE-2013-4508" vulName="lighttpd 安全漏洞" ruleDesc="此漏洞不影响RedHat" judgment="lighttpd 安全漏洞(CVE-2013-4508)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="59" cve="CVE-2014-2324" vulName="lighttpd 目录遍历漏洞" ruleDesc="此漏洞不影响RedHat" judgment="lighttpd 目录遍历漏洞(CVE-2014-2324)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="60" cve="CVE-2002-1337" vulName="Sendmail头处理远程溢出漏洞" ruleDesc="此漏洞不影响RedHat" judgment="Sendmail头处理远程溢出漏洞(CVE-2002-1337)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="61" cve="CVE-2003-0694" vulName="Sendmail prescan头处理远程溢出漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="Sendmail prescan头处理远程溢出漏洞(CVE-2003-0694)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="62" cve="CVE-1999-0618" vulName="检测到远程rexec服务正在运行中漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="检测到远程rexec服务正在运行中漏洞(CVE-1999-0618)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="63" cve="CVE-2003-0161" vulName="Sendmail地址预扫描内存破坏漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="Sendmail地址预扫描内存破坏漏洞(CVE-2003-0161)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="64" cve="CVE-2009-1899" vulName="IBM WAS 组件'System Management/Repository' 未明安全漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="IBM WAS 组件'System Management/Repository' 未明安全漏洞(CVE-2009-1899)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="65" cve="CVE-2002-0906" vulName="Sendmail DNS映射TXT记录远程缓冲区溢出漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Sendmail DNS映射TXT记录远程缓冲区溢出漏洞(CVE-2002-0906)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="66" cve="CVE-1999-0651" vulName="远程rsh服务允许部分用户登陆漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="远程rsh服务允许部分用户登陆漏洞(CVE-1999-0651)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="67" cve="CVE-2003-0681" vulName="Sendmail Ruleset Parsing 缓冲区溢出漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="Sendmail Ruleset Parsing 缓冲区溢出漏洞(CVE-2003-0681)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="68" cve="CVE-2000-0937" vulName="Samba Samba Web Administration Tool (SWAT)强力密码猜测漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Samba Samba Web Administration Tool (SWAT)强力密码猜测漏洞(CVE-2000-0937)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="69" cve="CVE-2010-0785" vulName="IBM WAS跨站请求伪造漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="IBM WAS跨站请求伪造漏洞(CVE-2010-0785)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="70" cve="CVE-2005-2070" vulName="Sendmail 远程拒绝服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Sendmail 远程拒绝服务漏洞(CVE-2005-2070)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="71" cve="CVE-2009-1900" vulName="IBM WAS 'Configservice APIs' 未明安全漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="IBM WAS 'Configservice APIs' 未明安全漏洞(CVE-2009-1900)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="72" cve="CVE-2014-3512" vulName="OpenSSL SRP 缓冲区溢出漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL SRP 缓冲区溢出漏洞(CVE-2014-3512)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="73" cve="CVE-2014-5139" vulName="OpenSSL 拒绝服务漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL 拒绝服务漏洞(CVE-2014-5139)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="74" cve="CVE-2001-0653" vulName="Sendmail修改进程内存提升特权漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="Sendmail修改进程内存提升特权漏洞(CVE-2001-0653)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="75" cve="CVE-2002-1165" vulName="Sendmail SMRSH双重管道访问确认漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="Sendmail SMRSH双重管道访问确认漏洞(CVE-2002-1165)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="76" cve="CVE-2009-0899" vulName="IBM WAS 标签&quot;IsSecurityEnabled&quot; 信息泄露漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="IBM WAS 标签&quot;IsSecurityEnabled&quot; 信息泄露漏洞(CVE-2009-0899)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="77" cve="CVE-2010-2327" vulName="IBM WebSphere Application Server mod_ibm_ssl输入验证漏洞" ruleDesc="RedHat查不���相应的CVE编号" judgment="IBM WebSphere Application Server mod_ibm_ssl输入验证漏洞(CVE-2010-2327)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="78" cve="CVE-2004-0558" vulName="CUPS UDP数据包远程服务拒绝漏洞" ruleDesc="此漏洞不影响现场RedHat版本" judgment="CUPS UDP数据包远程服务拒绝漏洞(CVE-2004-0558)|此漏洞不影响现场RedHat版本，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="79" cve="CVE-2014-5139" vulName="OpenSSL 拒绝服务漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL 拒绝服务漏洞(CVE-2014-5139)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="80" cve="CVE-2012-2014" vulName="HPSystemManagementHomepage输入验证漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystemManagementHomepage输入验证漏洞(CVE-2012-2014)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="81" cve="CVE-2012-2015" vulName="HPSystemManagementHomepage权限提升漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystemManagementHomepage权限提升漏洞(CVE-2012-2015)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="82" cve="CVE-2012-2013" vulName="HPSystemManagementHomepage拒绝服务漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HPSystemManagementHomepage拒绝服务漏洞(CVE-2012-2013)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="83" cve="CVE-2013-0337" vulName="Nginx&amp;#39;access.log&amp;#39;不安全文件权限漏洞" ruleDesc="此漏洞不影响RedHat" judgment="Nginx&amp;#39;access.log&amp;#39;不安全文件权限漏洞(CVE-2013-0337)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="84" cve="CVE-2010-0742" vulName="OpenSSL CMS结构处理内存破坏漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL CMS结构处理内存破坏漏洞(CVE-2010-0742)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="85" cve="CVE-2012-0553" vulName="yaSSL 不明细节缓冲区溢出漏洞" ruleDesc="此漏洞不影响RedHat" judgment="yaSSL 不明细节缓冲区溢出漏洞(CVE-2012-0553)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="86" cve="CVE-2013-1492" vulName="yaSSL 不明细节缓冲区溢出漏洞" ruleDesc="此漏洞不影响RedHat" judgment="yaSSL 不明细节缓冲区溢出漏洞(CVE-2013-1492)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="87" cve="CVE-2013-4547" vulName="nginx URI处理安全限制绕过漏洞" ruleDesc="此漏洞不影响RedHat" judgment="nginx URI处理安全限制绕过漏洞(CVE-2013-4547)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="88" cve="CVE-2012-4414" vulName="MariaDB多个SQL注入漏洞" ruleDesc="此漏洞不影响RedHat" judgment="MariaDB多个SQL注入漏洞(CVE-2012-4414)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="89" cve="CVE-1999-0351" vulName="FTPPASV端口可预测漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="FTPPASV端口可预测漏洞(CVE-1999-0351)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="90" cve="CVE-2013-2070" vulName="Nginx proxy_pass模块远程安全漏洞" ruleDesc="此漏洞不影响RedHat" judgment="Nginx proxy_pass模块远程安全漏洞(CVE-2013-2070)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="91" cve="CVE-2011-4354" vulName="OpenSSL ECC密钥信息泄露漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL ECC密钥信息泄露漏洞(CVE-2011-4354)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="92" cve="CVE-1999-0024" vulName="远端DNS服务允许递归查询" ruleDesc="RedHat查不到相应的CVE编号" judgment="远端DNS服务允许递归查询(CVE-1999-0024)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="93" cve="CVE-2014-3568" vulName="OpenSSL 'no-ssl3' 构建选项安全绕过漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL 'no-ssl3' 构建选项安全绕过漏洞(CVE-2014-3568)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="94" cve="CVE-2014-3569" vulName="OpenSSL 'no-ssl3' 构建选项导致空指针漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL 'no-ssl3' 构建选项导致空指针漏洞(CVE-2014-3569)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="95" cve="CVE-2005-2797" vulName="OpenSSH DynamicForward 非故意的的GatewayPorts激活漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="OpenSSH DynamicForward 非故意的的GatewayPorts激活漏洞(CVE-2005-2797)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="96" cve="CVE-2009-0265" vulName="isc bind 授权问题漏洞" ruleDesc="此漏洞不影响RedHat" judgment="isc bind 授权问题漏洞(CVE-2009-0265)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="97" cve="CVE-2015-1788" vulName="OpenSSL‘BN_GF2m_mod_inv’函数拒绝服务漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL‘BN_GF2m_mod_inv’函数拒绝服务漏洞(CVE-2015-1788)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="98" cve="CVE-2012-2016" vulName="HP System Management Homepage 信息泄露漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="HP System Management Homepage 信息泄露漏洞(CVE-2012-2016)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="99" cve="CVE-2011-1473" vulName="thc ssl dow攻击漏洞" ruleDesc="RedHat官方针对此漏洞不做升级服务" judgment="thc ssl dow攻击漏洞(CVE-2011-1473)|RedHat官方针对此漏洞不做升级服务，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="100" cve="CVE-2007-6203" vulName="Apache HTTP Server HTTP 413错误页面跨站脚本漏洞" ruleDesc="此漏洞不影响RedHat" judgment="Apache HTTP Server HTTP 413错误页面跨站脚本漏洞(CVE-2007-6203)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="101" cve="CVE-2007-2243" vulName="OpenSSH S/Key 远程信息泄露漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSH S/Key 远程信息泄露漏洞(CVE-2007-2243)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="102" cve="CVE-2009-0046" vulName="Sun GridEngine 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Sun GridEngine 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞(CVE-2009-0046)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="103" cve="CVE-2009-0047" vulName="Gale 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Gale 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞(CVE-2009-0047)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="104" cve="CVE-2009-0048" vulName="OpenEvidence 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="OpenEvidence 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞(CVE-2009-0048)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="105" cve="CVE-2009-0049" vulName="Belgian eID middleware函数OpenSSL EVP_VerifyFinal安全绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Belgian eID middleware函数OpenSSL EVP_VerifyFinal安全绕过漏洞(CVE-2009-0049)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="106" cve="CVE-2009-0050" vulName="Lasso 函数OpenSSL DSA_verify 安全绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="Lasso 函数OpenSSL DSA_verify 安全绕过漏洞(CVE-2009-0050)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="107" cve="CVE-2009-0051" vulName="ZXID 函数OpenSSL DSA_verify 安全绕过漏洞" ruleDesc="RedHat查不到相应的CVE编号" judgment="ZXID 函数OpenSSL DSA_verify 安全绕过漏洞(CVE-2009-0051)|RedHat查不到相应的CVE编号，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="108" cve="CVE-2012-0027" vulName="OpenSSL资源管理错误漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL资源管理错误漏洞(CVE-2012-0027)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="109" cve="CVE-2009-0591" vulName="OpenSSL 程序CMS_verify 安全绕过漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL 程序CMS_verify 安全绕过漏洞(CVE-2009-0591)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="110" cve="CVE-2009-0789" vulName="OpenSSL 证书公钥多个拒绝服务和无效证书验证漏洞" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSL 证书公钥多个拒绝服务和无效证书验证漏洞(CVE-2009-0789)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="111" cve="CVE-2011-3210" vulName="OpenSSL Ephermal ECDH Ciphersuites拒绝服务漏洞" ruleDesc="无影响" judgment="OpenSSL Ephermal ECDH Ciphersuites拒绝服务漏洞(CVE-2011-3210)|无影响，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="112" cve="CVE-2015-2331" vulName="PHP ZIP扩展libzip 数字错误漏洞(CVE-2015-2331)" ruleDesc="此漏洞不影响RedHat" judgment="PHP ZIP扩展libzip 数字错误漏洞(CVE-2015-2331)(CVE-2015-2331)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="113" cve="CVE-2015-6834" vulName="PHP 多个远程代码执行漏洞(CVE-2015-6834)" ruleDesc="此漏洞不影响RedHat" judgment="PHP 多个远程代码执行漏洞(CVE-2015-6834)(CVE-2015-6834)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="114" cve="CVE-2015-7849" vulName="NTP ntpd内存破坏漏洞 (CVE-2015-7849)" ruleDesc="此漏洞不影响RedHat" judgment="NTP ntpd内存破坏漏洞 (CVE-2015-7849)(CVE-2015-7849)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="115" cve="CVE-2015-7854" vulName="NTP 口令长度内存破坏漏洞 (CVE-2015-7854)" ruleDesc="此漏洞不影响RedHat" judgment="NTP 口令长度内存破坏漏洞 (CVE-2015-7854)(CVE-2015-7854)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="116" cve="CVE-2015-7871" vulName="NTP 身份验证绕过漏洞(CVE-2015-7871)" ruleDesc="此漏洞不影响RedHat" judgment="NTP 身份验证绕过漏洞(CVE-2015-7871)(CVE-2015-7871)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="117" cve="CVE-2015-7851" vulName="NTP saveconfig目录遍历漏洞 (CVE-2015-7851)" ruleDesc="此漏洞不影响RedHat" judgment="NTP saveconfig目录遍历漏洞 (CVE-2015-7851)(CVE-2015-7851)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="118" cve="CVE-2008-4109" vulName="Portable OpenSSH GSSAPI远程代码执行漏洞(CVE-2008-4109)" ruleDesc="此漏洞不影响RedHat" judgment="Portable OpenSSH GSSAPI远程代码执行漏洞(CVE-2008-4109)(CVE-2008-4109)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="119" cve="CVE-2010-4478" vulName="OpenSSH J-PAKE授权问题漏洞(CVE-2010-4478)" ruleDesc="此漏洞不影响RedHat" judgment="OpenSSH J-PAKE授权问题漏洞(CVE-2010-4478)(CVE-2010-4478)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="120" cve="CVE-2008-4109" vulName="Portable OpenSSH GSSAPI远程代码执行漏洞(CVE-2008-4109)" ruleDesc="此漏洞不影响RedHat" judgment="Portable OpenSSH GSSAPI远程代码执行漏洞(CVE-2008-4109)(CVE-2008-4109)|此漏洞不影响RedHat，{SERIES}">
+      <version name="version" value="RedHat" />
+    </rule>
+    <rule no="121" cve="CVE-2013-4548" vulName="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞" ruleDesc="此漏洞针对RedHat5/6/7无影响" judgment="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞(CVE-2013-4548)|此漏洞针对RedHat5/6/7无影响，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="122" cve="CVE-2010-4755" vulName="OpenSSH glob表达式拒绝服务漏洞" ruleDesc="此漏洞针对RedHat5/6无影响" judgment="OpenSSH glob表达式拒绝服务漏洞(CVE-2010-4755)|此漏洞针对RedHat5/6无影响，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6" />
+    </rule>
+    <rule no="123" cve="CVE-2014-1692" vulName="OpenSSH 'schnorr.c'远程内存破坏漏洞" ruleDesc="此漏洞针对RedHat5/6/7无影响" judgment="OpenSSH 'schnorr.c'远程内存破坏漏洞(CVE-2014-1692)|此漏洞针对RedHat5/6/7无影响，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="124" cve="CVE-2013-5211" vulName="NTP 'ntp_request.c'远程拒绝服务漏洞" ruleDesc="此漏洞针对RedHat5/6/7无影响" judgment="NTP 'ntp_request.c'远程拒绝服务漏洞(CVE-2013-5211)|此漏洞针对RedHat5/6/7无影响，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="125" cve="CVE-2012-3868" vulName="ISC BIND 竞争条件漏洞" ruleDesc="此漏洞针对RedHat4/5/6无影响" judgment="ISC BIND 竞争条件漏洞(CVE-2012-3868)|此漏洞针对RedHat4/5/6无影响，{SERIES}">
+      <series name="series" value="RedHat4|RedHat5|RedHat6" />
+    </rule>
+    <rule no="126" cve="CVE-2012-0814" vulName="OpenSSH auth_parse_options函数信任管理漏洞" ruleDesc="此漏洞针对RedHat4/5/6无影响" judgment="OpenSSH auth_parse_options函数信任管理漏洞(CVE-2012-0814)|此漏洞针对RedHat4/5/6无影响，{SERIES}">
+      <series name="series" value="RedHat4|RedHat5|RedHat6" />
+    </rule>
+    <rule no="127" cve="CVE-2010-4478" vulName="OpenSSH J-PAKE授权问题漏洞" ruleDesc="此漏洞针对RedHat4/5/6无影响" judgment="OpenSSH J-PAKE授权问题漏洞(CVE-2010-4478)|此漏洞针对RedHat4/5/6无影响，{SERIES}">
+      <series name="series" value="RedHat4|RedHat5|RedHat6" />
+    </rule>
+    <rule no="128" cve="CVE-2010-3615" vulName="ISC BIND named权限许可和访问控制漏洞" ruleDesc="此漏洞针对RedHat4/5/6无影响" judgment="ISC BIND named权限许可和访问控制漏洞(CVE-2010-3615)|此漏洞针对RedHat4/5/6无影响，{SERIES}">
+      <series name="series" value="RedHat4|RedHat5|RedHat6" />
+    </rule>
+    <rule no="129" cve="CVE-2016-2519" vulName="ntpd 拒绝服务漏洞(CVE-2016-2519)" ruleDesc="此漏��针对redhat5/6/7不影响" judgment="ntpd 拒绝服务漏洞(CVE-2016-2519)(CVE-2016-2519)|此漏洞针对redhat5/6/7不影响，{SERIES}">
+      <series name="series" value="redhat5|redhat6|redhat7" />
+    </rule>
+    <rule no="130" cve="CVE-2015-7848" vulName="NTP Mode 7请求拒绝服务漏洞 (CVE-2015-7848)" ruleDesc="此漏洞针对RedHat5/6/7无影响" judgment="NTP Mode 7请求拒绝服务漏洞 (CVE-2015-7848)(CVE-2015-7848)|此漏洞针对RedHat5/6/7无影响，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="131" cve="CVE-2015-7855" vulName="NTP 长数据包拒绝服务漏洞 (CVE-2015-7855)" ruleDesc="此漏洞针对RedHat5/6/7无影响" judgment="NTP 长数据包拒绝服务漏洞 (CVE-2015-7855)(CVE-2015-7855)|此漏洞针对RedHat5/6/7无影响，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="132" cve="CVE-2015-7850" vulName="NTP 允许远程配置拒绝服务漏洞 (CVE-2015-7850)" ruleDesc="此漏洞针对RedHat5/6/7官方不做升级" judgment="NTP 允许远程配置拒绝服务漏洞 (CVE-2015-7850)(CVE-2015-7850)|此漏洞针对RedHat5/6/7官方不做升级，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="133" cve="CVE-2015-7705" vulName="NTP Kiss-o&amp;#39;-Death拒绝服务漏洞 (CVE-2015-7705)" ruleDesc="此漏洞针对RedHat5/6/7官方不做升级" judgment="NTP Kiss-o&amp;#39;-Death拒绝服务漏洞 (CVE-2015-7705)(CVE-2015-7705)|此漏洞针对RedHat5/6/7官方不做升级，{SERIES}">
+      <series name="series" value="RedHat5|RedHat6|RedHat7" />
+    </rule>
+    <rule no="134" cve="CVE-2015-7853" vulName="NTP ntpd缓冲区溢出漏洞 (CVE-2015-7853)" ruleDesc="此漏洞针对RedHat4/5/6无影响" judgment="NTP ntpd缓冲区溢出漏洞 (CVE-2015-7853)(CVE-2015-7853)|此漏洞针对RedHat4/5/6无影响，{SERIES}">
+      <series name="series" value="RedHat4|RedHat5|RedHat6" />
+    </rule>
+    <rule no="135" cve="CVE-2010-4755" vulName="OpenSSH glob表达式拒绝服务漏洞(CVE-2010-4755)" ruleDesc="此漏洞针对RedHat4/5/6无影响" judgment="OpenSSH glob表达式拒绝服务漏洞(CVE-2010-4755)(CVE-2010-4755)|此漏洞针对RedHat4/5/6无影响，{SERIES}">
+      <series name="series" value="RedHat4|RedHat5|RedHat6" />
+    </rule>
+    <rule no="136" cve="CVE-2005-2798" vulName="OpenSSH GSSAPI 证书信息泄露漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH GSSAPI 证书信息泄露漏洞(CVE-2005-2798)|openssh-3.9p1-8.RedHat4.9.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RedHat4.9.x86_64.rpm" />
+    </rule>
+    <rule no="137.1" cve="CVE-2014-2653" vulName="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞(CVE-2014-2653)|openssh-5.3p1-104.el6.x86_64.rpm|影响RedHat6/7，{openssh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-104.el6.x86_64.rpm" />
+    </rule>
+    <rule no="137.3" cve="CVE-2014-2653" vulName="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSH verify_host_key函数 SSHFP DNS RR 检查绕过漏洞(CVE-2014-2653)|openssh-6.6.1p1-11.el7.x86_64.rpm|影响RedHat6/7，{openssh}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-11.el7.x86_64.rpm" />
+    </rule>
+    <rule no="138" cve="CVE-2014-2532" vulName="OpenSSH 权限许可和访问控制漏洞" ruleDesc="影响RedHat6" judgment="OpenSSH 权限许可和访问控制漏洞(CVE-2014-2532)|openssh-5.3p1-104.el6.x86_64.rpm|影响RedHat6，{openssh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-104.el6.x86_64.rpm" />
+    </rule>
+    <rule no="139" cve="CVE-2010-5107" vulName="OpenSSH默认服务器配置拒绝服务漏洞" ruleDesc="影响RedHat6" judgment="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)|openssh-5.3p1-94.el6.x86_64.rpm|影响RedHat6，{openssh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-94.el6.x86_64.rpm" />
+    </rule>
+    <rule no="140.1" cve="CVE-2014-0195" vulName="OpenSSLDTLS无效的片段缓冲区溢出漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSLDTLS无效的片段缓冲区溢出漏洞(CVE-2014-0195)|openssl-1.0.1e-16.el6_5.14.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.14.x86_64.rpm" />
+    </rule>
+    <rule no="140.3" cve="CVE-2014-0195" vulName="OpenSSLDTLS无效的片段缓冲区溢出漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSLDTLS无效的片段缓冲区溢出漏洞(CVE-2014-0195)|openssl-1.0.1e-34.el7_0.3.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.3.x86_64.rpm" />
+    </rule>
+    <rule no="141.1" cve="CVE-2014-3508" vulName="OpenSSL信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL信息泄露漏洞(CVE-2014-3508)|openssl-0.9.8e-27.el5_10.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-27.el5_10.4.x86_64.rpm" />
+    </rule>
+    <rule no="141.3" cve="CVE-2014-3508" vulName="OpenSSL信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL信息泄露漏洞(CVE-2014-3508)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="141.5" cve="CVE-2014-3508" vulName="OpenSSL信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL信息泄露漏洞(CVE-2014-3508)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="142.1" cve="CVE-2014-3566" vulName="SSL 3.0 POODLE攻击信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)|java-1.6.0-openjdk-1.6.0.34-1.13.6.1.el5_11.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.34-1.13.6.1.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="142.3" cve="CVE-2014-3566" vulName="SSL 3.0 POODLE攻击信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)|java-1.6.0-openjdk-1.6.0.34-1.13.6.1.el6_6.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.34-1.13.6.1.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="142.4" cve="CVE-2014-3566" vulName="SSL 3.0 POODLE攻击信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)|java-1.6.0-openjdk-1.6.0.34-1.13.6.1.el7_0.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.34-1.13.6.1.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="142.5" cve="CVE-2014-3566" vulName="SSL 3.0 POODLE攻击信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)|java-1.7.0-openjdk-1.7.0.75-2.5.4.0.el5_11.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.75-2.5.4.0.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="142.6" cve="CVE-2014-3566" vulName="SSL 3.0 POODLE攻击信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)|java-1.7.0-openjdk-1.7.0.75-2.5.4.0.el6_6.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.75-2.5.4.0.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="142.7" cve="CVE-2014-3566" vulName="SSL 3.0 POODLE攻击信息泄露漏洞" ruleDesc="影响RedHat5/6/7" judgment="SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)|java-1.7.0-openjdk-1.7.0.75-2.5.4.2.el7_0.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.75-2.5.4.2.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="143.1" cve="CVE-2014-9295" vulName="NTP多个栈缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP多个栈缓冲区溢出漏洞(CVE-2014-9295)|ntp-4.2.2p1-18.el5_11.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-18.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="143.3" cve="CVE-2014-9295" vulName="NTP多个栈缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP多个栈缓冲区溢出漏洞(CVE-2014-9295)|ntp-4.2.6p5-2.el6_6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-2.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="143.5" cve="CVE-2014-9295" vulName="NTP多个栈缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP多个栈缓冲区溢出漏洞(CVE-2014-9295)|ntp-4.2.6p5-19.el7_0.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="144" cve="CVE-2014-0160" vulName="OpenSSL 缓冲区溢出漏洞" ruleDesc="影响RedHat6" judgment="OpenSSL 缓冲区溢出漏洞(CVE-2014-0160)|openssl-1.0.1e-16.el6_5.7.x86_64.rpm|影响RedHat6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.7.x86_64.rpm" />
+    </rule>
+    <rule no="145.1" cve="CVE-2012-4244" vulName="ISC BIND 9 DNS资源记录处理远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS资源记录处理远程拒绝服务漏洞(CVE-2012-4244)|bind-9.2.4-41.el4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-41.el4.x86_64.rpm" />
+    </rule>
+    <rule no="145.2" cve="CVE-2012-4244" vulName="ISC BIND 9 DNS资源记录处理远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS资源记录处理远程拒绝服务漏洞(CVE-2012-4244)|bind-9.3.6-20.P1.el5_8.4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.4.x86_64.rpm" />
+    </rule>
+    <rule no="145.3" cve="CVE-2012-4244" vulName="ISC BIND 9 DNS资源记录处理远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS资源记录处理远程拒绝服务漏洞(CVE-2012-4244)|bind-9.8.2-0.10.rc1.el6_3.3.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.8.2-0.10.rc1.el6_3.3.x86_64.rpm" />
+    </rule>
+    <rule no="146.1" cve="CVE-2012-1033" vulName="ISC BIND ‘resolver’安全漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND ‘resolver’安全漏洞(CVE-2012-1033)|bind-9.3.6-20.P1.el5_8.1.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.1.x86_64.rpm" />
+    </rule>
+    <rule no="146.3" cve="CVE-2012-1033" vulName="ISC BIND ‘resolver’安全漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND ‘resolver’安全漏洞(CVE-2012-1033)|bind-9.7.3-8.P3.el6_2.3.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.3-8.P3.el6_2.3.x86_64.rpm" />
+    </rule>
+    <rule no="147.1" cve="CVE-2012-5166" vulName="ISC BIND 数字错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 数字错误漏洞(CVE-2012-5166)|bind-9.2.4-41.el4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-41.el4.x86_64.rpm" />
+    </rule>
+    <rule no="147.3" cve="CVE-2012-5166" vulName="ISC BIND 数字错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 数字错误漏洞(CVE-2012-5166)|bind-9.3.6-20.P1.el5_8.4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.4.x86_64.rpm" />
+    </rule>
+    <rule no="147.5" cve="CVE-2012-5166" vulName="ISC BIND 数字错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 数字错误漏洞(CVE-2012-5166)|bind-9.8.2-0.10.rc1.el6_3.5.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.8.2-0.10.rc1.el6_3.5.x86_64.rpm" />
+    </rule>
+    <rule no="148.1" cve="CVE-2012-1667" vulName="ISC BIND 9 DNS 资源记录处理数字错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS 资源记录处理数字错误漏洞(CVE-2012-1667)|bind-9.2.4-39.el4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-39.el4.x86_64.rpm" />
+    </rule>
+    <rule no="148.2" cve="CVE-2012-1667" vulName="ISC BIND 9 DNS 资源记录处理数字错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS 资源记录处理数字错误漏洞(CVE-2012-1667)|bind-9.3.6-20.P1.el5_8.1.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.1.x86_64.rpm" />
+    </rule>
+    <rule no="148.3" cve="CVE-2012-1667" vulName="ISC BIND 9 DNS 资源记录处理数字错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS 资源记录处理数字错误漏洞(CVE-2012-1667)|bind-9.7.3-8.P3.el6_2.3.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.3-8.P3.el6_2.3.x86_64.rpm" />
+    </rule>
+    <rule no="149.1" cve="CVE-2012-3817" vulName="ISC BIND ‘DNSSEC’验证拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND ‘DNSSEC’验证拒绝服务漏洞(CVE-2012-3817)|bind-9.3.6-20.P1.el5_8.2.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.2.x86_64.rpm" />
+    </rule>
+    <rule no="149.2" cve="CVE-2012-3817" vulName="ISC BIND ‘DNSSEC’验证拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND ‘DNSSEC’验证拒绝服务漏洞(CVE-2012-3817)|bind-9.8.2-0.10.rc1.el6_3.2.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.8.2-0.10.rc1.el6_3.2.x86_64.rpm" />
+    </rule>
+    <rule no="150.1" cve="CVE-2010-3613" vulName="ISC BIND named权限许可和访问控制漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND named权限许可和访问控制漏洞(CVE-2010-3613)|bind-9.2.4-30.el4_8.6.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-30.el4_8.6.x86_64.rpm" />
+    </rule>
+    <rule no="150.2" cve="CVE-2010-3613" vulName="ISC BIND named权限许可和访问控制漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND named权限许可和访问控制漏洞(CVE-2010-3613)|bind-9.3.6-4.P1.el5_5.3.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-4.P1.el5_5.3.x86_64.rpm" />
+    </rule>
+    <rule no="150.3" cve="CVE-2010-3613" vulName="ISC BIND named权限许可和访问控制漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND named权限许可和访问控制漏洞(CVE-2010-3613)|bind-9.7.0-5.P2.el6_0.1.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.0-5.P2.el6_0.1.x86_64.rpm" />
+    </rule>
+    <rule no="151.1" cve="CVE-2010-3614" vulName="ISC BIND DNSKEY算法安全漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND DNSKEY算法安全漏洞(CVE-2010-3614)|bind-9.3.6-4.P1.el5_5.3.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-4.P1.el5_5.3.x86_64.rpm" />
+    </rule>
+    <rule no="151.2" cve="CVE-2010-3614" vulName="ISC BIND DNSKEY算法安全漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND DNSKEY算法安全漏洞(CVE-2010-3614)|bind-9.7.0-5.P2.el6_0.1.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.0-5.P2.el6_0.1.x86_64.rpm" />
+    </rule>
+    <rule no="152" cve="CVE-2008-1483" vulName="OpenSSH 'sshd(8)'连接会话劫持漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH 'sshd(8)'连接会话劫持漏洞(CVE-2008-1483)|openssh-3.9p1-8.RHEL4.9.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.9.x86_64.rpm" />
+    </rule>
+    <rule no="153.1" cve="CVE-2009-1252" vulName="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞" ruleDesc="影响RedHat4/5" judgment="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞(CVE-2009-1252)|ntp-4.2.0.a.20040617-8.el4_7.2.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.0.a.20040617-8.el4_7.2.x86_64.rpm" />
+    </rule>
+    <rule no="153.2" cve="CVE-2009-1252" vulName="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞" ruleDesc="影响RedHat4/5" judgment="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞(CVE-2009-1252)|ntp-4.2.2p1-9.el5_3.2.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-9.el5_3.2.x86_64.rpm" />
+    </rule>
+    <rule no="154.1" cve="CVE-2009-0159" vulName="NTP ntpq命令远程栈溢出溢出漏洞" ruleDesc="影响RedHat4/5" judgment="NTP ntpq命令远程栈溢出溢出漏洞(CVE-2009-0159)|ntp-4.2.0.a.20040617-8.el4_7.2.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.0.a.20040617-8.el4_7.2.x86_64.rpm" />
+    </rule>
+    <rule no="154.2" cve="CVE-2009-0159" vulName="NTP ntpq命令远程栈溢出溢出漏洞" ruleDesc="影响RedHat4/5" judgment="NTP ntpq命令远程栈溢出溢出漏洞(CVE-2009-0159)|ntp-4.2.2p1-9.el5_3.2.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-9.el5_3.2.x86_64.rpm" />
+    </rule>
+    <rule no="155.1" cve="CVE-2007-4752" vulName="OpenSSH X11 Cookie本地绕过认证漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSH X11 Cookie本地绕过认证漏洞(CVE-2007-4752)|openssh-3.9p1-11.el4_7.x86_64.rpm|影响RedHat4/5，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-11.el4_7.x86_64.rpm" />
+    </rule>
+    <rule no="155.2" cve="CVE-2007-4752" vulName="OpenSSH X11 Cookie本地绕过认证漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSH X11 Cookie本地绕过认证漏洞(CVE-2007-4752)|openssh-4.3p2-26.el5_2.1.x86_64.rpm|影响RedHat4/5，{openssh}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssh" value="openssh-4.3p2-26.el5_2.1.x86_64.rpm" />
+    </rule>
+    <rule no="156.1" cve="CVE-2007-2926" vulName="ISC BIND可预测DNS查询ID漏洞" ruleDesc="影响RedHat4/5" judgment="ISC BIND可预测DNS查询ID漏洞(CVE-2007-2926)|bind-9.2.4-27.0.1.el4.x86_64.rpm|影响RedHat4/5，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-27.0.1.el4.x86_64.rpm" />
+    </rule>
+    <rule no="156.2" cve="CVE-2007-2926" vulName="ISC BIND可预测DNS查询ID漏洞" ruleDesc="影响RedHat4/5" judgment="ISC BIND可预测DNS查询ID漏洞(CVE-2007-2926)|bind-9.3.3-9.0.1.el5.x86_64.rpm|影响RedHat4/5，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.3-9.0.1.el5.x86_64.rpm" />
+    </rule>
+    <rule no="157" cve="CVE-2006-0225" vulName="OpenSSH SCP本地Shell命令执行漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH SCP本地Shell命令执行漏洞(CVE-2006-0225)|openssh-3.9p1-8.RHEL4.12.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.12.x86_64.rpm" />
+    </rule>
+    <rule no="158" cve="CVE-2006-5051" vulName="OpenSSH 任意命令执行漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH 任意命令执行漏洞(CVE-2006-5051)|openssh-3.9p1-8.RHEL4.17.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.17.x86_64.rpm" />
+    </rule>
+    <rule no="159" cve="CVE-2006-5794" vulName="OpenSSH sshd Privilege Separation Monitor 未明漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH sshd Privilege Separation Monitor 未明漏洞(CVE-2006-5794)|openssh-3.9p1-8.RHEL4.17.1.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.17.1.x86_64.rpm" />
+    </rule>
+    <rule no="160.1" cve="CVE-2014-9296" vulName="NTP‘receive’函数安全漏洞" ruleDesc="影响RedHat6/7" judgment="NTP‘receive’函数安全漏洞(CVE-2014-9296)|ntp-4.2.6p5-2.el6_6.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-2.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="160.3" cve="CVE-2014-9296" vulName="NTP‘receive’函数安全漏洞" ruleDesc="影响RedHat6/7" judgment="NTP‘receive’函数安全漏洞(CVE-2014-9296)|ntp-4.2.6p5-19.el7_0.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="161.1" cve="CVE-2014-8275" vulName="OpenSSL 证书fingerprints可以被修改" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 证书fingerprints可以被修改(CVE-2014-8275)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="161.2" cve="CVE-2014-8275" vulName="OpenSSL 证书fingerprints可以被修改" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 证书fingerprints可以被修改(CVE-2014-8275)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="161.3" cve="CVE-2014-8275" vulName="OpenSSL 证书fingerprints可以被修改" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 证书fingerprints可以被修改(CVE-2014-8275)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="162.1" cve="CVE-2014-3570" vulName="OpenSSL BN_sqr实现加密问题漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL BN_sqr实现加密问题漏洞(CVE-2014-3570)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="162.3" cve="CVE-2014-3570" vulName="OpenSSL BN_sqr实现加密问题漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL BN_sqr实现加密问题漏洞(CVE-2014-3570)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="163.1" cve="CVE-2015-0286" vulName="OpenSSL‘ASN1_TYPE_cmp’函数安全漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘ASN1_TYPE_cmp’函数安全漏洞(CVE-2015-0286)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="163.3" cve="CVE-2015-0286" vulName="OpenSSL‘ASN1_TYPE_cmp’函数安全漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘ASN1_TYPE_cmp’函数安全漏洞(CVE-2015-0286)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="164.1" cve="CVE-2015-0287" vulName="OpenSSL‘ASN1_item_ex_d2i’函数安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘ASN1_item_ex_d2i’函数安全漏洞(CVE-2015-0287)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="164.3" cve="CVE-2015-0287" vulName="OpenSSL‘ASN1_item_ex_d2i’函数安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘ASN1_item_ex_d2i’函数安全漏洞(CVE-2015-0287)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="164.5" cve="CVE-2015-0287" vulName="OpenSSL‘ASN1_item_ex_d2i’函数安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘ASN1_item_ex_d2i’函数安全漏洞(CVE-2015-0287)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="165.1" cve="CVE-2015-0289" vulName="OpenSSL PKCS#7 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL PKCS#7 拒绝服务漏洞(CVE-2015-0289)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="165.3" cve="CVE-2015-0289" vulName="OpenSSL PKCS#7 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL PKCS#7 拒绝服务漏洞(CVE-2015-0289)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="165.5" cve="CVE-2015-0289" vulName="OpenSSL PKCS#7 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL PKCS#7 拒绝服务漏洞(CVE-2015-0289)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="166.1" cve="CVE-2015-0292" vulName="OpenSSL‘EVP_DecodeUpdate’函数缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘EVP_DecodeUpdate’函数缓冲区溢出漏洞(CVE-2015-0292)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="166.2" cve="CVE-2015-0292" vulName="OpenSSL‘EVP_DecodeUpdate’函数缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘EVP_DecodeUpdate’函数缓冲区溢出漏洞(CVE-2015-0292)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="166.3" cve="CVE-2015-0292" vulName="OpenSSL‘EVP_DecodeUpdate’函数缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘EVP_DecodeUpdate’函数缓冲区溢出漏洞(CVE-2015-0292)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="167.1" cve="CVE-2015-0288" vulName="OpenSSL‘X509_to_X509_REQ’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘X509_to_X509_REQ’函数拒绝服务漏洞(CVE-2015-0288)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="167.2" cve="CVE-2015-0288" vulName="OpenSSL‘X509_to_X509_REQ’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘X509_to_X509_REQ’函数拒绝服务漏洞(CVE-2015-0288)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="167.3" cve="CVE-2015-0288" vulName="OpenSSL‘X509_to_X509_REQ’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘X509_to_X509_REQ’函数拒绝服务漏洞(CVE-2015-0288)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="168" cve="CVE-2010-0433" vulName="OpenSSL kssk_keytab_is_available()远程拒绝服务出漏洞" ruleDesc="影响RedHat5" judgment="OpenSSL kssk_keytab_is_available()远程拒绝服务出漏洞(CVE-2010-0433)|openssl-0.9.8e-12.el5_4.6.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5_4.6.x86_64.rpm" />
+    </rule>
+    <rule no="169.1" cve="CVE-2014-3470" vulName="OpenSSL 安全漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 安全漏洞(CVE-2014-3470)|openssl-1.0.1e-16.el6_5.14.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.14.x86_64.rpm" />
+    </rule>
+    <rule no="169.2" cve="CVE-2014-3470" vulName="OpenSSL 安全漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 安全漏洞(CVE-2014-3470)|openssl-1.0.1e-34.el7_0.3.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.3.x86_64.rpm" />
+    </rule>
+    <rule no="170.1" cve="CVE-2014-0221" vulName="OpenSSL 资源管理错误漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 资源管理错误漏洞(CVE-2014-0221)|openssl-0.9.8e-27.el5_10.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-27.el5_10.4.x86_64.rpm" />
+    </rule>
+    <rule no="170.2" cve="CVE-2014-0221" vulName="OpenSSL 资源管理错误漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 资源管理错误漏洞(CVE-2014-0221)|openssl-1.0.1e-16.el6_5.14.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.14.x86_64.rpm" />
+    </rule>
+    <rule no="170.3" cve="CVE-2014-0221" vulName="OpenSSL 资源管理错误漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 资源管理错误漏洞(CVE-2014-0221)|openssl-1.0.1e-34.el7_0.3.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.3.x86_64.rpm" />
+    </rule>
+    <rule no="171.1" cve="CVE-2010-4180" vulName="OpenSSL密码集降级安全漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL密码集降级安全漏洞(CVE-2010-4180)|openssl-0.9.7a-43.17.el4_8.6.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.7a-43.17.el4_8.6.x86_64.rpm" />
+    </rule>
+    <rule no="171.2" cve="CVE-2010-4180" vulName="OpenSSL密码集降级安全漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL密码集降级安全漏洞(CVE-2010-4180)|openssl-0.9.8e-12.el5_5.7.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5_5.7.x86_64.rpm" />
+    </rule>
+    <rule no="171.3" cve="CVE-2010-4180" vulName="OpenSSL密码集降级安全漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL密码集降级安全漏洞(CVE-2010-4180)|openssl-1.0.0-4.el6_0.2.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-4.el6_0.2.x86_64.rpm" />
+    </rule>
+    <rule no="172" cve="CVE-2006-4924" vulName="OpenSSH 拒绝服务漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH 拒绝服务漏洞(CVE-2006-4924)|openssh-3.9p1-8.RHEL4.17.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.17.x86_64.rpm" />
+    </rule>
+    <rule no="173.1" cve="CVE-2006-5052" vulName="OpenSSH GSSAPI认证终止信息泄露漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSH GSSAPI认证终止信息泄露漏洞(CVE-2006-5052)|openssh-3.9p1-8.RHEL4.24.x86_64.rpm|影响RedHat4/5，{openssh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.24.x86_64.rpm" />
+    </rule>
+    <rule no="173.2" cve="CVE-2006-5052" vulName="OpenSSH GSSAPI认证终止信息泄露漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSH GSSAPI认证终止信息泄露漏洞(CVE-2006-5052)|openssh-4.3p2-24.el5.x86_64.rpm|影响RedHat4/5，{openssh}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssh" value="openssh-4.3p2-24.el5.x86_64.rpm" />
+    </rule>
+    <rule no="174" cve="CVE-2005-2496" vulName="NTPD 不安全权限漏洞" ruleDesc="影响RedHat4" judgment="NTPD 不安全权限漏洞(CVE-2005-2496)|ntp-4.2.0.a.20040617-4.EL4.1.x86_64.rpm|影响RedHat4，{ntp}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.0.a.20040617-4.EL4.1.x86_64.rpm" />
+    </rule>
+    <rule no="175.1" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el5_11.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="175.2" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el6_7.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el6_7.x86_64.rpm" />
+    </rule>
+    <rule no="175.3" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el7_1.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="175.4" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el5_11.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="175.5" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el6_6.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="175.6" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.7.0-openjdk-1.7.0.85-2.6.1.2.el7_1.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.85-2.6.1.2.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="175.7" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.8.0-openjdk-1.8.0.51-0.b16.el6_6.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.8.0-openjdk-1.8.0.51-0.b16.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="175.8" cve="CVE-2015-2808" vulName="RC4 加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="RC4 加密问题漏洞(CVE-2015-2808)|java-1.8.0-openjdk-1.8.0.51-1.b16.el7_1.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.8.0-openjdk-1.8.0.51-1.b16.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="176" cve="CVE-2006-0058" vulName="Sendmail异步信号处理竞争条件漏洞" ruleDesc="影响RedHat4" judgment="Sendmail异步信号处理竞争条件漏洞(CVE-2006-0058)|sendmail-8.13.1-3.RHEL4.3.x86_64.rpm|影响RedHat4，{sendmail}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="sendmail" value="sendmail-8.13.1-3.RHEL4.3.x86_64.rpm" />
+    </rule>
+    <rule no="177.1" cve="CVE-2009-4565" vulName="Sendmail空字符CA SSL证书验证安全绕过漏洞" ruleDesc="影响RedHat4/5" judgment="Sendmail空字符CA SSL证书验证安全绕过漏洞(CVE-2009-4565)|sendmail-8.13.1-6.el4.x86_64.rpm|影响RedHat4/5，{sendmail}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="sendmail" value="sendmail-8.13.1-6.el4.x86_64.rpm" />
+    </rule>
+    <rule no="177.2" cve="CVE-2009-4565" vulName="Sendmail空字符CA SSL证书验证安全绕过漏洞" ruleDesc="影响RedHat4/5" judgment="Sendmail空字符CA SSL证书验证安全绕过漏洞(CVE-2009-4565)|sendmail-8.13.8-8.el5.x86_64.rpm|影响RedHat4/5，{sendmail}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="sendmail" value="sendmail-8.13.8-8.el5.x86_64.rpm" />
+    </rule>
+    <rule no="178" cve="CVE-2006-1173" vulName="Sendmail MIME消息 远程拒绝服务漏洞" ruleDesc="影响RedHat4" judgment="Sendmail MIME消息 远程拒绝服务漏洞(CVE-2006-1173)|sendmail-8.13.1-3.RHEL4.5.x86_64.rpm|影响RedHat4，{sendmail}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="sendmail" value="sendmail-8.13.1-3.RHEL4.5.x86_64.rpm" />
+    </rule>
+    <rule no="179.1" cve="CVE-2014-3509" vulName="OpenSSL 竞争条件漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 竞争条件漏洞(CVE-2014-3509)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="179.2" cve="CVE-2014-3509" vulName="OpenSSL 竞争条件漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 竞争条件漏洞(CVE-2014-3509)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="180.1" cve="CVE-2014-3511" vulName="OpenSSL 安全漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 安全漏洞(CVE-2014-3511)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="180.2" cve="CVE-2014-3511" vulName="OpenSSL 安全漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 安全漏洞(CVE-2014-3511)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="181.1" cve="CVE-2014-3513" vulName="OpenSSL DTLS SRTP扩展内存泄露漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL DTLS SRTP扩展内存泄露漏洞(CVE-2014-3513)|openssl-1.0.1e-30.el6_6.2.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.2.x86_64.rpm" />
+    </rule>
+    <rule no="181.2" cve="CVE-2014-3513" vulName="OpenSSL DTLS SRTP扩展内存泄露漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL DTLS SRTP扩展内存泄露漏洞(CVE-2014-3513)|openssl-1.0.1e-34.el7_0.6.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.6.x86_64.rpm" />
+    </rule>
+    <rule no="182.1" cve="CVE-2015-0206" vulName="OpenSSL ‘dtls1_buffer_record’函数缓冲区溢出漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ‘dtls1_buffer_record’函数缓冲区溢出漏洞(CVE-2015-0206)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="182.2" cve="CVE-2015-0206" vulName="OpenSSL ‘dtls1_buffer_record’函数缓冲区溢出漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ‘dtls1_buffer_record’函数缓冲区溢出漏洞(CVE-2015-0206)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="183.1" cve="CVE-2015-0205" vulName="OpenSSL ‘ssl3_get_cert_verify’函数加密问题漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ‘ssl3_get_cert_verify’函数加密问题漏洞(CVE-2015-0205)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="183.2" cve="CVE-2015-0205" vulName="OpenSSL ‘ssl3_get_cert_verify’函数加密问题漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ‘ssl3_get_cert_verify’函数加密问题漏洞(CVE-2015-0205)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="184.1" cve="CVE-2010-5298" vulName="OpenSSL 竞争条件漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 竞争条件漏洞(CVE-2010-5298)|openssl-1.0.1e-16.el6_5.14.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.14.x86_64.rpm" />
+    </rule>
+    <rule no="184.2" cve="CVE-2010-5298" vulName="OpenSSL 竞争条件漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL 竞争条件漏洞(CVE-2010-5298)|openssl-1.0.1e-34.el7_0.3.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.3.x86_64.rpm" />
+    </rule>
+    <rule no="185" cve="CVE-2013-6449" vulName="OpenSSL 加密问题漏洞" ruleDesc="影响RedHat6" judgment="OpenSSL 加密问题漏洞(CVE-2013-6449)|openssl-1.0.1e-16.el6_5.4.x86_64.rpm|影响RedHat6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.4.x86_64.rpm" />
+    </rule>
+    <rule no="186" cve="CVE-2013-4353" vulName="OpenSSL ‘ssl3_take_mac ’函数输入验证漏洞" ruleDesc="影响RedHat6" judgment="OpenSSL ‘ssl3_take_mac ’函数输入验证漏洞(CVE-2013-4353)|openssl-1.0.1e-16.el6_5.4.x86_64.rpm|影响RedHat6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.4.x86_64.rpm" />
+    </rule>
+    <rule no="187.1" cve="CVE-2014-0198" vulName="OpenSSL‘do_ssl3_write’函数缓冲区溢出漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘do_ssl3_write’函数缓冲区溢出漏洞(CVE-2014-0198)|openssl-1.0.1e-16.el6_5.14.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.14.x86_64.rpm" />
+    </rule>
+    <rule no="187.2" cve="CVE-2014-0198" vulName="OpenSSL‘do_ssl3_write’函数缓冲区溢出漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘do_ssl3_write’函数缓冲区溢出漏洞(CVE-2014-0198)|openssl-1.0.1e-34.el7_0.3.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.3.x86_64.rpm" />
+    </rule>
+    <rule no="188.1" cve="CVE-2014-9293" vulName="NTP‘config_auth’函数安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP‘config_auth’函数安全漏洞(CVE-2014-9293)|ntp-4.2.2p1-18.el5_11.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-18.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="188.2" cve="CVE-2014-9293" vulName="NTP‘config_auth’函数安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP‘config_auth’函数安全漏洞(CVE-2014-9293)|ntp-4.2.6p5-2.el6_6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-2.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="188.3" cve="CVE-2014-9293" vulName="NTP‘config_auth’函数安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP‘config_auth’函数安全漏洞(CVE-2014-9293)|ntp-4.2.6p5-19.el7_0.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="189.1" cve="CVE-2014-9294" vulName="NTP 安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP 安全漏洞(CVE-2014-9294)|ntp-4.2.2p1-18.el5_11.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-18.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="189.2" cve="CVE-2014-9294" vulName="NTP 安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP 安全漏洞(CVE-2014-9294)|ntp-4.2.6p5-2.el6_6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-2.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="189.3" cve="CVE-2014-9294" vulName="NTP 安全漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP 安全漏洞(CVE-2014-9294)|ntp-4.2.6p5-19.el7_0.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="190.1" cve="CVE-2009-1252" vulName="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞" ruleDesc="影响RedHat4/5" judgment="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞(CVE-2009-1252)|ntp-4.2.0.a.20040617-8.el4_7.2.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.0.a.20040617-8.el4_7.2.x86_64.rpm" />
+    </rule>
+    <rule no="190.2" cve="CVE-2009-1252" vulName="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞" ruleDesc="影响RedHat4/5" judgment="NTP 'ntpd' Autokey 栈缓冲区溢出漏洞(CVE-2009-1252)|ntp-4.2.2p1-9.el5_3.2.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-9.el5_3.2.x86_64.rpm" />
+    </rule>
+    <rule no="191.1" cve="CVE-2011-4108" vulName="OpenSSL加密问题漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSL加密问题漏洞(CVE-2011-4108)|openssl-0.9.8e-20.el5_7.1.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-20.el5_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="191.2" cve="CVE-2011-4108" vulName="OpenSSL加密问题漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSL加密问题漏洞(CVE-2011-4108)|openssl-1.0.0-20.el6_2.1.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.1.x86_64.rpm" />
+    </rule>
+    <rule no="192" cve="CVE-2011-4109" vulName="OpenSSL资源管理错误漏洞" ruleDesc="影响RedHat5" judgment="OpenSSL资源管理错误漏洞(CVE-2011-4109)|openssl-0.9.8e-20.el5_7.1.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-20.el5_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="193.1" cve="CVE-2011-4576" vulName="OpenSSL加密问题漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL加密问题漏洞(CVE-2011-4576)|openssl-0.9.7a-43.18.el4.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.7a-43.18.el4.x86_64.rpm" />
+    </rule>
+    <rule no="193.3" cve="CVE-2011-4576" vulName="OpenSSL加密问题漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL加密问题漏洞(CVE-2011-4576)|openssl-0.9.8e-20.el5_7.1.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-20.el5_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="193.4" cve="CVE-2011-4576" vulName="OpenSSL加密问题漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL加密问题漏洞(CVE-2011-4576)|openssl-1.0.0-20.el6_2.1.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.1.x86_64.rpm" />
+    </rule>
+    <rule no="194" cve="CVE-2011-4577" vulName="OpenSSL资源管理错误漏洞" ruleDesc="影响RedHat6" judgment="OpenSSL资源管理错误漏洞(CVE-2011-4577)|openssl-1.0.0-20.el6_2.1.x86_64.rpm|影响RedHat6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.1.x86_64.rpm" />
+    </rule>
+    <rule no="195.1" cve="CVE-2011-4619" vulName="OpenSSL资源管理错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL资源管理错误漏洞(CVE-2011-4619)|openssl-0.9.7a-43.18.el4.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.7a-43.18.el4.x86_64.rpm" />
+    </rule>
+    <rule no="195.3" cve="CVE-2011-4619" vulName="OpenSSL资源管理错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL资源管理错误漏洞(CVE-2011-4619)|openssl-0.9.8e-20.el5_7.1.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-20.el5_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="195.4" cve="CVE-2011-4619" vulName="OpenSSL资源管理错误漏洞" ruleDesc="影响RedHat4/5/6" judgment="OpenSSL资源管理错误漏洞(CVE-2011-4619)|openssl-1.0.0-20.el6_2.1.x86_64.rpm|影响RedHat4/5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.1.x86_64.rpm" />
+    </rule>
+    <rule no="196" cve="CVE-2007-4995" vulName="OpenSSL DTLS远程堆溢出漏洞" ruleDesc="影响RedHat5" judgment="OpenSSL DTLS远程堆溢出漏洞(CVE-2007-4995)|openssl-0.9.8b-8.3.el5_0.2.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8b-8.3.el5_0.2.x86_64.rpm" />
+    </rule>
+    <rule no="197.1" cve="CVE-2012-5166" vulName="ISC BIND 9 DNS RDATA处理远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS RDATA处理远程拒绝服务漏洞(CVE-2012-5166)|bind-9.2.4-41.el4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-41.el4.x86_64.rpm" />
+    </rule>
+    <rule no="197.2" cve="CVE-2012-5166" vulName="ISC BIND 9 DNS RDATA处理远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS RDATA处理远程拒绝服务漏洞(CVE-2012-5166)|bind-9.3.6-20.P1.el5_8.5.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.5.x86_64.rpm" />
+    </rule>
+    <rule no="197.3" cve="CVE-2012-5166" vulName="ISC BIND 9 DNS RDATA处理远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISC BIND 9 DNS RDATA处理远程拒绝服务漏洞(CVE-2012-5166)|bind-9.8.2-0.10.rc1.el6_3.5.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.8.2-0.10.rc1.el6_3.5.x86_64.rpm" />
+    </rule>
+    <rule no="198" cve="CVE-2009-4022" vulName="ISC BIND 9 DNSSEC查询响应远程缓存中毒漏洞" ruleDesc="影响RedHat5" judgment="ISC BIND 9 DNSSEC查询响应远程缓存中毒漏洞(CVE-2009-4022)|bind-9.3.6-4.P1.el5_4.1.x86_64.rpm|影响RedHat5，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-4.P1.el5_4.1.x86_64.rpm" />
+    </rule>
+    <rule no="199.1" cve="CVE-2014-9295" vulName="NTP 基于栈的缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP 基于栈的缓冲区溢出漏洞(CVE-2014-9295)|ntp-4.2.2p1-18.el5_11.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-18.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="199.2" cve="CVE-2014-9295" vulName="NTP 基于栈的缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP 基于栈的缓冲区溢出漏洞(CVE-2014-9295)|ntp-4.2.6p5-2.el6_6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-2.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="199.3" cve="CVE-2014-9295" vulName="NTP 基于栈的缓冲区溢出漏洞" ruleDesc="影响RedHat5/6/7" judgment="NTP 基于栈的缓冲区溢出漏洞(CVE-2014-9295)|ntp-4.2.6p5-19.el7_0.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="200.1" cve="CVE-2014-9296" vulName="NTP‘receive’函数安全漏洞" ruleDesc="影响RedHat6/7" judgment="NTP‘receive’函数安全漏洞(CVE-2014-9296)|ntp-4.2.6p5-2.el6_6.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-2.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="200.2" cve="CVE-2014-9296" vulName="NTP‘receive’函数安全漏洞" ruleDesc="影响RedHat6/7" judgment="NTP‘receive’函数安全漏洞(CVE-2014-9296)|ntp-4.2.6p5-19.el7_0.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_0.x86_64.rpm" />
+    </rule>
+    <rule no="201" cve="CVE-2006-7250" vulName="OpenSSL ‘mime_hdr_cmp’函数拒绝服务漏洞" ruleDesc="影响RedHat5" judgment="OpenSSL ‘mime_hdr_cmp’函数拒绝服务漏洞(CVE-2006-7250)|openssl-0.9.8e-12.el5.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5.x86_64.rpm" />
+    </rule>
+    <rule no="202.1" cve="CVE-2012-2333" vulName="OpenSSLDTLS远程拒绝服务" ruleDesc="影响RedHat5/6" judgment="OpenSSLDTLS远程拒绝服务(CVE-2012-2333)|openssl-0.9.8e-22.el5_8.4.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-22.el5_8.4.x86_64.rpm" />
+    </rule>
+    <rule no="202.2" cve="CVE-2012-2333" vulName="OpenSSLDTLS远程拒绝服务" ruleDesc="影响RedHat5/6" judgment="OpenSSLDTLS远程拒绝服务(CVE-2012-2333)|openssl-1.0.0-20.el6_2.5.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.5.x86_64.rpm" />
+    </rule>
+    <rule no="203.1" cve="CVE-2014-0224" vulName="OpenSSL SSL/TLS MITM 漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSL/TLS MITM 漏洞(CVE-2014-0224)|openssl-0.9.8e-27.el5_10.3.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-27.el5_10.3.x86_64.rpm" />
+    </rule>
+    <rule no="203.2" cve="CVE-2014-0224" vulName="OpenSSL SSL/TLS MITM 漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSL/TLS MITM 漏洞(CVE-2014-0224)|openssl-1.0.1e-16.el6_5.14.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.14.x86_64.rpm" />
+    </rule>
+    <rule no="203.3" cve="CVE-2014-0224" vulName="OpenSSL SSL/TLS MITM 漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSL/TLS MITM 漏洞(CVE-2014-0224)|openssl-1.0.1e-34.el7_0.3.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.3.x86_64.rpm" />
+    </rule>
+    <rule no="204.1" cve="CVE-2008-5077" vulName="OpenSSL 函数EVP_VerifyFinal 签名验证漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSL 函数EVP_VerifyFinal 签名验证漏洞(CVE-2008-5077)|openssl-0.9.7a-43.17.el4_7.2.x86_64.rpm|影响RedHat4/5，{openssl}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.7a-43.17.el4_7.2.x86_64.rpm" />
+    </rule>
+    <rule no="204.2" cve="CVE-2008-5077" vulName="OpenSSL 函数EVP_VerifyFinal 签名验证漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSL 函数EVP_VerifyFinal 签名验证漏洞(CVE-2008-5077)|openssl-0.9.8b-10.el5_2.1.x86_64.rpm|影响RedHat4/5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8b-10.el5_2.1.x86_64.rpm" />
+    </rule>
+    <rule no="205.1" cve="CVE-2009-0021" vulName="NTP 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞" ruleDesc="影响RedHat4/5" judgment="NTP 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞(CVE-2009-0021)|ntp-4.2.0.a.20040617-8.el4_7.1.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.0.a.20040617-8.el4_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="205.3" cve="CVE-2009-0021" vulName="NTP 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞" ruleDesc="影响RedHat4/5" judgment="NTP 函数OpenSSL EVP_VerifyFinal 安全绕过漏洞(CVE-2009-0021)|ntp-4.2.2p1-9.el5_3.1.x86_64.rpm|影响RedHat4/5，{ntp}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.2p1-9.el5_3.1.x86_64.rpm" />
+    </rule>
+    <rule no="206.1" cve="CVE-2009-0025" vulName="BIND 函数OpenSSL DSA_verify 安全绕过漏洞" ruleDesc="影响RedHat4/5" judgment="BIND 函数OpenSSL DSA_verify 安全绕过漏洞(CVE-2009-0025)|bind-9.2.4-30.el4_7.1.x86_64.rpm|影响RedHat4/5，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-30.el4_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="206.2" cve="CVE-2009-0025" vulName="BIND 函数OpenSSL DSA_verify 安全绕过漏洞" ruleDesc="影响RedHat4/5" judgment="BIND 函数OpenSSL DSA_verify 安全绕过漏洞(CVE-2009-0025)|bind-9.3.4-6.0.3.P1.el5_2.x86_64.rpm|影响RedHat4/5，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.4-6.0.3.P1.el5_2.x86_64.rpm" />
+    </rule>
+    <rule no="207" cve="CVE-2009-1387" vulName="OpenSSL dtls1_retrieve_buffered_fragment()函数握手消息拒绝服务漏洞" ruleDesc="影响RedHat5" judgment="OpenSSL dtls1_retrieve_buffered_fragment()函数握手消息拒绝服务漏洞(CVE-2009-1387)|openssl-0.9.8e-12.el5.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5.x86_64.rpm" />
+    </rule>
+    <rule no="208" cve="CVE-2009-1386" vulName="OpenSSLChangeCipherSpecDTLS报文拒绝服务漏洞" ruleDesc="影响RedHat5" judgment="OpenSSLChangeCipherSpecDTLS报文拒绝服务漏洞(CVE-2009-1386)|openssl-0.9.8e-12.el5.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5.x86_64.rpm" />
+    </rule>
+    <rule no="209.1" cve="CVE-2009-0590" vulName="OpenSSL 程序ASN1_STRING_print_ex 多个拒绝服务漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSL 程序ASN1_STRING_print_ex 多个拒绝服务漏洞(CVE-2009-0590)|openssl-0.9.7a-43.17.el4_8.5.x86_64.rpm|影响RedHat4/5，{openssl}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.7a-43.17.el4_8.5.x86_64.rpm" />
+    </rule>
+    <rule no="209.2" cve="CVE-2009-0590" vulName="OpenSSL 程序ASN1_STRING_print_ex 多个拒绝服务漏洞" ruleDesc="影响RedHat4/5" judgment="OpenSSL 程序ASN1_STRING_print_ex 多个拒绝服务漏洞(CVE-2009-0590)|openssl-0.9.8e-12.el5.x86_64.rpm|影响RedHat4/5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5.x86_64.rpm" />
+    </rule>
+    <rule no="210.1" cve="CVE-2011-4313" vulName="ISCBIND9递归查询远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISCBIND9递归查询远程拒绝服务漏洞(CVE-2011-4313)|bind-9.2.4-38.el4.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="bind" value="bind-9.2.4-38.el4.x86_64.rpm" />
+    </rule>
+    <rule no="210.2" cve="CVE-2011-4313" vulName="ISCBIND9递归查询远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISCBIND9递归查询远程拒绝服务漏洞(CVE-2011-4313)|bind-9.3.6-16.P1.el5_7.1.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-16.P1.el5_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="210.3" cve="CVE-2011-4313" vulName="ISCBIND9递归查询远程拒绝服务漏洞" ruleDesc="影响RedHat4/5/6" judgment="ISCBIND9递归查询远程拒绝服务漏洞(CVE-2011-4313)|bind-9.7.3-2.el6_1.P3.3.x86_64.rpm|影响RedHat4/5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.3-2.el6_1.P3.3.x86_64.rpm" />
+    </rule>
+    <rule no="211.1" cve="CVE-2012-1033" vulName="ISCBIND安全限制绕过漏洞" ruleDesc="影响RedHat5/6" judgment="ISCBIND安全限制绕过漏洞(CVE-2012-1033)|bind-9.3.6-20.P1.el5_8.1.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-20.P1.el5_8.1.x86_64.rpm" />
+    </rule>
+    <rule no="211.2" cve="CVE-2012-1033" vulName="ISCBIND安全限制绕过漏洞" ruleDesc="影响RedHat5/6" judgment="ISCBIND安全限制绕过漏洞(CVE-2012-1033)|bind-9.7.3-8.P3.el6_2.3.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.3-8.P3.el6_2.3.x86_64.rpm" />
+    </rule>
+    <rule no="212.1" cve="CVE-2012-0884" vulName="OpenSSL CMS / PKCS #7 Decryption实现安全漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSL CMS / PKCS #7 Decryption实现安全漏洞(CVE-2012-0884)|openssl-0.9.8e-22.el5_8.1.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-22.el5_8.1.x86_64.rpm" />
+    </rule>
+    <rule no="212.2" cve="CVE-2012-0884" vulName="OpenSSL CMS / PKCS #7 Decryption实现安全漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSL CMS / PKCS #7 Decryption实现安全漏洞(CVE-2012-0884)|openssl-1.0.0-20.el6_2.3.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.3.x86_64.rpm" />
+    </rule>
+    <rule no="213.1" cve="CVE-2012-1165" vulName="OpenSSLS/MIME标头处理空指针引用拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSLS/MIME标头处理空指针引用拒绝服务漏洞(CVE-2012-1165)|openssl-0.9.8e-22.el5_8.1.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-22.el5_8.1.x86_64.rpm" />
+    </rule>
+    <rule no="213.2" cve="CVE-2012-1165" vulName="OpenSSLS/MIME标头处理空指针引用拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSLS/MIME标头处理空指针引用拒绝服务漏洞(CVE-2012-1165)|openssl-1.0.0-20.el6_2.3.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-20.el6_2.3.x86_64.rpm" />
+    </rule>
+    <rule no="214.1" cve="CVE-2014-3506" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3506)|openssl-0.9.8e-27.el5_10.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-27.el5_10.4.x86_64.rpm" />
+    </rule>
+    <rule no="214.2" cve="CVE-2014-3506" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3506)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="214.3" cve="CVE-2014-3506" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3506)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="215.1" cve="CVE-2014-3505" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3505)|openssl-0.9.8e-27.el5_10.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-27.el5_10.4.x86_64.rpm" />
+    </rule>
+    <rule no="215.2" cve="CVE-2014-3505" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3505)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="215.3" cve="CVE-2014-3505" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3505)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="216.1" cve="CVE-2014-3507" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3507)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="216.2" cve="CVE-2014-3507" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3507)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="217.1" cve="CVE-2014-3510" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3510)|openssl-0.9.8e-27.el5_10.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-27.el5_10.4.x86_64.rpm" />
+    </rule>
+    <rule no="217.2" cve="CVE-2014-3510" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3510)|openssl-1.0.1e-16.el6_5.15.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.15.x86_64.rpm" />
+    </rule>
+    <rule no="217.3" cve="CVE-2014-3510" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3510)|openssl-1.0.1e-34.el7_0.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.4.x86_64.rpm" />
+    </rule>
+    <rule no="218.1" cve="CVE-2014-3567" vulName="OpenSSL会话票证内存泄露漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL会话票证内存泄露漏洞(CVE-2014-3567)|openssl-1.0.1e-30.el6_6.2.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.2.x86_64.rpm" />
+    </rule>
+    <rule no="218.2" cve="CVE-2014-3567" vulName="OpenSSL会话票证内存泄露漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL会话票证内存泄露漏洞(CVE-2014-3567)|openssl-1.0.1e-34.el7_0.6.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.6.x86_64.rpm" />
+    </rule>
+    <rule no="219.1" cve="CVE-2014-3571" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3571)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="219.2" cve="CVE-2014-3571" vulName="OpenSSLDTLS远程拒绝服务漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSLDTLS远程拒绝服务漏洞(CVE-2014-3571)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="220.1" cve="CVE-2014-3572" vulName="OpenSSL ECDHE静默降级漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ECDHE静默降级漏洞(CVE-2014-3572)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="220.2" cve="CVE-2014-3572" vulName="OpenSSL ECDHE静默降级漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ECDHE静默降级漏洞(CVE-2014-3572)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="221" cve="CVE-2011-3207" vulName="OpenSSL CRL绕过漏洞" ruleDesc="影响RedHat6" judgment="OpenSSL CRL绕过漏洞(CVE-2011-3207)|openssl-1.0.0-10.el6_1.5.x86_64.rpm|影响RedHat6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-10.el6_1.5.x86_64.rpm" />
+    </rule>
+    <rule no="222.1" cve="CVE-2011-1910" vulName="ISC BIND 9 Large RRSIG RRsets远程拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND 9 Large RRSIG RRsets远程拒绝服务漏洞(CVE-2011-1910)|bind97-9.7.0-6.P2.el5_6.2.x86_64.rpm|影响RedHat5/6，{bind97}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind97" value="bind97-9.7.0-6.P2.el5_6.2.x86_64.rpm" />
+    </rule>
+    <rule no="222.2" cve="CVE-2011-1910" vulName="ISC BIND 9 Large RRSIG RRsets远程拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="ISC BIND 9 Large RRSIG RRsets远程拒绝服务漏洞(CVE-2011-1910)|bind-9.7.3-2.el6_1.P1.1.x86_64.rpm|影响RedHat5/6，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.7.3-2.el6_1.P1.1.x86_64.rpm" />
+    </rule>
+    <rule no="223.1" cve="CVE-2013-0166" vulName="OpenSSL多个远程拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSL多个远程拒绝服务漏洞(CVE-2013-0166)|openssl-0.9.8e-26.el5_9.1.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-26.el5_9.1.x86_64.rpm" />
+    </rule>
+    <rule no="223.2" cve="CVE-2013-0166" vulName="OpenSSL多个远程拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="OpenSSL多个远程拒绝服务漏洞(CVE-2013-0166)|openssl-1.0.0-27.el6_4.2.x86_64.rpm|影响RedHat5/6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.0-27.el6_4.2.x86_64.rpm" />
+    </rule>
+    <rule no="224" cve="CVE-2009-1377" vulName="OpenSSL DTLS报文多个拒绝服务漏洞" ruleDesc="影响RedHat5" judgment="OpenSSL DTLS报文多个拒绝服务漏洞(CVE-2009-1377)|openssl-0.9.8e-12.el5.x86_64.rpm|影响RedHat5，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-12.el5.x86_64.rpm" />
+    </rule>
+    <rule no="225" cve="CVE-2013-6450" vulName="OpenSSL 安全漏洞" ruleDesc="影响RedHat6" judgment="OpenSSL 安全漏洞(CVE-2013-6450)|openssl-1.0.1e-16.el6_5.4.x86_64.rpm|影响RedHat6，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-16.el6_5.4.x86_64.rpm" />
+    </rule>
+    <rule no="226.1" cve="CVE-2015-0204" vulName="OpenSSL 安全策略静默降级漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 安全策略静默降级漏洞(CVE-2015-0204)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="226.2" cve="CVE-2015-0204" vulName="OpenSSL 安全策略静默降级漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 安全策略静默降级漏洞(CVE-2015-0204)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="226.3" cve="CVE-2015-0204" vulName="OpenSSL 安全策略静默降级漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL 安全策略静默降级漏洞(CVE-2015-0204)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="227.1" cve="CVE-2015-1790" vulName="OpenSSL‘PKCS7_dataDecode’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘PKCS7_dataDecode’函数拒绝服务漏洞(CVE-2015-1790)|openssl-0.9.8e-36.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-36.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="227.2" cve="CVE-2015-1790" vulName="OpenSSL‘PKCS7_dataDecode’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘PKCS7_dataDecode’函数拒绝服务漏洞(CVE-2015-1790)|openssl-1.0.1e-30.el6_6.11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.11.x86_64.rpm" />
+    </rule>
+    <rule no="227.3" cve="CVE-2015-1790" vulName="OpenSSL‘PKCS7_dataDecode’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘PKCS7_dataDecode’函数拒绝服务漏洞(CVE-2015-1790)|openssl-1.0.1e-42.el7_1.8.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.8.x86_64.rpm" />
+    </rule>
+    <rule no="228.1" cve="CVE-2015-1791" vulName="OpenSSL‘ssl3_get_new_session_ticket’函数竞争条件漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘ssl3_get_new_session_ticket’函数竞争条件漏洞(CVE-2015-1791)|openssl-1.0.1e-30.el6_6.11.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.11.x86_64.rpm" />
+    </rule>
+    <rule no="228.2" cve="CVE-2015-1791" vulName="OpenSSL‘ssl3_get_new_session_ticket’函数竞争条件漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘ssl3_get_new_session_ticket’函数竞争条件漏洞(CVE-2015-1791)|openssl-1.0.1e-42.el7_1.8.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.8.x86_64.rpm" />
+    </rule>
+    <rule no="229.1" cve="CVE-2015-5477" vulName="ISC BIND 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="ISC BIND 拒绝服务漏洞(CVE-2015-5477)|bind-9.3.6-25.P1.el5_11.3.x86_64.rpm|影响RedHat5/6/7，{bind}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="bind" value="bind-9.3.6-25.P1.el5_11.3.x86_64.rpm" />
+    </rule>
+    <rule no="229.2" cve="CVE-2015-5477" vulName="ISC BIND 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="ISC BIND 拒绝服务漏洞(CVE-2015-5477)|bind-9.8.2-0.37.rc1.el6_7.2.x86_64.rpm|影响RedHat5/6/7，{bind}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="bind" value="bind-9.8.2-0.37.rc1.el6_7.2.x86_64.rpm" />
+    </rule>
+    <rule no="229.3" cve="CVE-2015-5477" vulName="ISC BIND 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="ISC BIND 拒绝服务漏洞(CVE-2015-5477)|bind-9.9.4-18.el7_1.3.x86_64.rpm|影响RedHat5/6/7，{bind}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="bind" value="bind-9.9.4-18.el7_1.3.x86_64.rpm" />
+    </rule>
+    <rule no="230.1" cve="CVE-2014-3572" vulName="OpenSSL ‘ssl3_get_key_exchange’函数加密问题漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ‘ssl3_get_key_exchange’函数加密问题漏洞(CVE-2014-3572)|openssl-1.0.1e-30.el6_6.5.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.5.x86_64.rpm" />
+    </rule>
+    <rule no="230.2" cve="CVE-2014-3572" vulName="OpenSSL ‘ssl3_get_key_exchange’函数加密问题漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL ‘ssl3_get_key_exchange’函数加密问题漏洞(CVE-2014-3572)|openssl-1.0.1e-34.el7_0.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-34.el7_0.7.x86_64.rpm" />
+    </rule>
+    <rule no="231.1" cve="CVE-2015-0293" vulName="OpenSSL SSLv2 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2 拒绝服务漏洞(CVE-2015-0293)|openssl-0.9.8e-33.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-33.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="231.2" cve="CVE-2015-0293" vulName="OpenSSL SSLv2 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2 拒绝服务漏洞(CVE-2015-0293)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="231.3" cve="CVE-2015-0293" vulName="OpenSSL SSLv2 拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2 拒绝服务漏洞(CVE-2015-0293)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="232.1" cve="CVE-2015-0209" vulName="OpenSSL‘d2i_ECPrivateKey’函数释放后重用漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘d2i_ECPrivateKey’函数释放后重用漏洞(CVE-2015-0209)|openssl-1.0.1e-30.el6_6.7.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.7.x86_64.rpm" />
+    </rule>
+    <rule no="232.2" cve="CVE-2015-0209" vulName="OpenSSL‘d2i_ECPrivateKey’函数释放后重用漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘d2i_ECPrivateKey’函数释放后重用漏洞(CVE-2015-0209)|openssl-1.0.1e-42.el7_1.4.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.4.x86_64.rpm" />
+    </rule>
+    <rule no="233.1" cve="CVE-2015-1789" vulName="OpenSSL‘X509_cmp_time’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘X509_cmp_time’函数拒绝服务漏洞(CVE-2015-1789)|openssl-0.9.8e-36.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-36.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="233.2" cve="CVE-2015-1789" vulName="OpenSSL‘X509_cmp_time’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘X509_cmp_time’函数拒绝服务漏洞(CVE-2015-1789)|openssl-1.0.1e-30.el6_6.11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.11.x86_64.rpm" />
+    </rule>
+    <rule no="233.3" cve="CVE-2015-1789" vulName="OpenSSL‘X509_cmp_time’函数拒绝服务漏洞" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL‘X509_cmp_time’函数拒绝服务漏洞(CVE-2015-1789)|openssl-1.0.1e-42.el7_1.8.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.8.x86_64.rpm" />
+    </rule>
+    <rule no="234.1" cve="CVE-2014-8176" vulName="OpenSSL‘dtls1_clear_queues’函数拒绝服务漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘dtls1_clear_queues’函数拒绝服务漏洞(CVE-2014-8176)|openssl-1.0.1e-30.el6_6.11.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.11.x86_64.rpm" />
+    </rule>
+    <rule no="234.2" cve="CVE-2014-8176" vulName="OpenSSL‘dtls1_clear_queues’函数拒绝服务漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘dtls1_clear_queues’函数拒绝服务漏洞(CVE-2014-8176)|openssl-1.0.1e-42.el7_1.8.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.8.x86_64.rpm" />
+    </rule>
+    <rule no="235.1" cve="CVE-2015-1792" vulName="OpenSSL‘do_free_upto’函数资源管理错误漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘do_free_upto’函数资源管理错误漏洞(CVE-2015-1792)|openssl-1.0.1e-30.el6_6.11.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.11.x86_64.rpm" />
+    </rule>
+    <rule no="235.2" cve="CVE-2015-1792" vulName="OpenSSL‘do_free_upto’函数资源管理错误漏洞" ruleDesc="影响RedHat6/7" judgment="OpenSSL‘do_free_upto’函数资源管理错误漏洞(CVE-2015-1792)|openssl-1.0.1e-42.el7_1.8.x86_64.rpm|影响RedHat6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.8.x86_64.rpm" />
+    </rule>
+    <rule no="236.1" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el5_11.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="236.2" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el6_7.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el6_7.x86_64.rpm" />
+    </rule>
+    <rule no="236.3" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el7_1.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.6.0-openjdk-1.6.0.36-1.13.8.1.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="236.4" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|openssl-0.9.8e-36.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-36.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="236.5" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS���议加密问题漏洞(CVE-2015-4000)|openssl-1.0.1e-30.el6_6.9.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-30.el6_6.9.x86_64.rpm" />
+    </rule>
+    <rule no="236.6" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|openssl-1.0.1e-42.el7_1.6.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el7_1.6.x86_64.rpm" />
+    </rule>
+    <rule no="236.7" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el5_11.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="236.8" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el6_6.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.85-2.6.1.3.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="236.9" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.7.0-openjdk-1.7.0.85-2.6.1.2.el7_1.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.7.0-openjdk-1.7.0.85-2.6.1.2.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="236.10" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.8.0-openjdk-1.8.0.51-0.b16.el6_6.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="java" value="java-1.8.0-openjdk-1.8.0.51-0.b16.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="236.11" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|java-1.8.0-openjdk-1.8.0.51-1.b16.el7_1.x86_64.rpm|影响RedHat5/6/7，{java}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="java" value="java-1.8.0-openjdk-1.8.0.51-1.b16.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="236.12" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|nss-3.19.1-3.el6_6.x86_64.rpm|影响RedHat5/6/7，{nss}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="nss" value="nss-3.19.1-3.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="236.13" cve="CVE-2015-4000" vulName="TLS协议加密问题漏洞" ruleDesc="影响RedHat5/6/7" judgment="TLS协议加密问题漏洞(CVE-2015-4000)|nss-3.19.1-3.el7_1.x86_64.rpm|影响RedHat5/6/7，{nss}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="nss" value="nss-3.19.1-3.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="237.1" cve="CVE-2011-0762" vulName="vsftpd FTP Server 'ls.c' 远程拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="vsftpd FTP Server 'ls.c' 远程拒绝服务漏洞(CVE-2011-0762)|vsftpd-2.2.2-6.el6_0.1|影响RedHat5/6，{vsftpd}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="vsftpd" value="vsftpd-2.2.2-6.el6_0.1" />
+    </rule>
+    <rule no="237.2" cve="CVE-2011-0762" vulName="vsftpd FTP Server 'ls.c' 远程拒绝服务漏洞" ruleDesc="影响RedHat5/6" judgment="vsftpd FTP Server 'ls.c' 远程拒绝服务漏洞(CVE-2011-0762)|vsftpd-2.0.5-16.el5_6.1.x86_64.rpm|影响RedHat5/6，{vsftpd}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="vsftpd" value="vsftpd-2.0.5-16.el5_6.1.x86_64.rpm" />
+    </rule>
+    <rule no="238" cve="CVE-2011-5000" vulName="OpenSSH 'ssh_gssapi_parse_ename()'函数拒绝服务漏洞" ruleDesc="影响redhat6" judgment="OpenSSH 'ssh_gssapi_parse_ename()'函数拒绝服务漏洞(CVE-2011-5000)|openssh-5.3p1-81.el6.x86_64.rpm|影响redhat6，{openssh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-81.el6.x86_64.rpm" />
+    </rule>
+    <rule no="239" cve="CVE-2015-2348" vulName="PHP move_uploaded_file 权限许可和访问控制漏洞(CVE-2015-2348)" ruleDesc="影响redhat7" judgment="PHP move_uploaded_file 权限许可和访问控制漏洞(CVE-2015-2348)(CVE-2015-2348)|php-5.4.16-36.el7_1.x86_64.rpm|影响redhat7，{php}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="php" value="php-5.4.16-36.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="240.1" cve="CVE-2015-2787" vulName="PHP‘process_nested_data’函数释放后重用漏洞(CVE-2015-2787)" ruleDesc="影响redhat6/7" judgment="PHP‘process_nested_data’函数释放后重用漏洞(CVE-2015-2787)(CVE-2015-2787)|php-5.3.3-46.el6_6.x86_64.rpm|影响redhat6/7，{php}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="php" value="php-5.3.3-46.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="240.2" cve="CVE-2015-2787" vulName="PHP‘process_nested_data’函数释放后重用漏洞(CVE-2015-2787)" ruleDesc="影响redhat6/7" judgment="PHP‘process_nested_data’函数释放后重用漏洞(CVE-2015-2787)(CVE-2015-2787)|php-5.4.16-36.el7_1.x86_64.rpm|影响redhat6/7，{php}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="php" value="php-5.4.16-36.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="241.1" cve="CVE-2015-4024" vulName="PHP multipart/form-data 远程DOS漏洞" ruleDesc="影响redhat6/7" judgment="PHP multipart/form-data 远程DOS漏洞(CVE-2015-4024)|php-5.3.3-46.el6_6.x86_64.rpm|影响redhat6/7，{php}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="php" value="php-5.3.3-46.el6_6.x86_64.rpm" />
+    </rule>
+    <rule no="241.2" cve="CVE-2015-4024" vulName="PHP multipart/form-data 远程DOS漏洞" ruleDesc="影响redhat6/7" judgment="PHP multipart/form-data 远程DOS漏洞(CVE-2015-4024)|php-5.4.16-36.el7_1.x86_64.rpm|影响redhat6/7，{php}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="php" value="php-5.4.16-36.el7_1.x86_64.rpm" />
+    </rule>
+    <rule no="242" cve="CVE-2016-0778" vulName="OpenSSH roaming_common.c堆缓冲区溢出漏洞(CVE-2016-0778)" ruleDesc="影响redhat7" judgment="OpenSSH roaming_common.c堆缓冲区溢出漏洞(CVE-2016-0778)(CVE-2016-0778)|openssh-6.6.1p1-23.el7_2.x86_64.rpm|影响redhat7，{openssh}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-23.el7_2.x86_64.rpm" />
+    </rule>
+    <rule no="243.1" cve="CVE-2015-5600" vulName="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)" ruleDesc="影响redhat6/7" judgment="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)(CVE-2015-5600)|openssh-5.3p1-117.el6.x86_64.rpm|影响redhat6/7，{openssh}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-117.el6.x86_64.rpm" />
+    </rule>
+    <rule no="243.3" cve="CVE-2015-5600" vulName="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)" ruleDesc="影响redhat6/7" judgment="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)(CVE-2015-5600)|openssh-6.6.1p1-22.el7.ppc64.rpm|影响redhat6/7，{openssh}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-22.el7.ppc64.rpm" />
+    </rule>
+    <rule no="244.1" cve="CVE-2015-6564" vulName="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)" ruleDesc="影响redhat6/7" judgment="OpenSSH sshd mm_answer_pam_free_ctx释放��重利用漏洞(CVE-2015-6564)(CVE-2015-6564)|openssh-5.3p1-117.el6.x86_64.rpm|影响redhat6/7，{openssh}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-117.el6.x86_64.rpm" />
+    </rule>
+    <rule no="244.3" cve="CVE-2015-6564" vulName="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)" ruleDesc="影响redhat6/7" judgment="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)(CVE-2015-6564)|openssh-6.6.1p1-22.el7.ppc64.rpm|影响redhat6/7，{openssh}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-22.el7.ppc64.rpm" />
+    </rule>
+    <rule no="245.1" cve="CVE-2014-9751" vulName="NTP ntpd 代码注入漏洞(CVE-2014-9751)" ruleDesc="影响redhat6/7" judgment="NTP ntpd 代码注入漏洞(CVE-2014-9751)(CVE-2014-9751)|ntp-4.2.6p5-5.el6.x86_64.rpm|影响redhat6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-5.el6.x86_64.rpm" />
+    </rule>
+    <rule no="245.2" cve="CVE-2014-9751" vulName="NTP ntpd 代码注入漏洞(CVE-2014-9751)" ruleDesc="影响redhat6/7" judgment="NTP ntpd 代码注入漏洞(CVE-2014-9751)(CVE-2014-9751)|ntp-4.2.6p5-22.el7.x86_64.rpm|影响redhat6/7，{ntp}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-22.el7.x86_64.rpm" />
+    </rule>
+    <rule no="246" cve="CVE-2015-7703" vulName="NTP 配置指令覆盖文件漏洞 (CVE-2015-7703)" ruleDesc="影响RedHat5/6/7" judgment="NTP 配置指令覆盖文件漏洞 (CVE-2015-7703)(CVE-2015-7703)|ntp-4.2.6p5-10.el6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.x86_64.rpm" />
+    </rule>
+    <rule no="247.2" cve="CVE-2014-9750" vulName="NTP ntpd 输入验证漏洞(CVE-2014-9750)" ruleDesc="影响RedHat5/6/7" judgment="NTP ntpd 输入验证漏洞(CVE-2014-9750)(CVE-2014-9750)|ntp-4.2.6p5-22.el7.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-22.el7.x86_64.rpm" />
+    </rule>
+    <rule no="249.1" cve="CVE-2016-2518" vulName="ntpd 安全漏洞(CVE-2016-2518)" ruleDesc="影响redhat6/7" judgment="ntpd 安全漏洞(CVE-2016-2518)(CVE-2016-2518)|ntp-4.2.6p5-10.el6.1.x86_64.rpm|影响redhat6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.1.x86_64.rpm" />
+    </rule>
+    <rule no="249.2" cve="CVE-2016-2518" vulName="ntpd 安全漏洞(CVE-2016-2518)" ruleDesc="影响redhat6/7" judgment="ntpd 安全漏洞(CVE-2016-2518)(CVE-2016-2518)|ntp-4.2.6p5-22.el7_2.2.x86_64.rpm|影响redhat6/7，{ntp}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-22.el7_2.2.x86_64.rpm" />
+    </rule>
+    <rule no="250" cve="CVE-2015-7691" vulName="NTP AutoKey恶意消息拒绝服务漏洞 (CVE-2015-7691)" ruleDesc="影响RedHat6/7" judgment="NTP AutoKey恶意消息拒绝服务漏洞 (CVE-2015-7691)(CVE-2015-7691)|ntp-4.2.6p5-10.el6.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.x86_64.rpm" />
+    </rule>
+    <rule no="251" cve="CVE-2015-7692" vulName="NTP AutoKey恶意消息拒绝服务漏洞 (CVE-2015-7692)" ruleDesc="影响RedHat5/6/7" judgment="NTP AutoKey恶意消息拒绝服务漏洞 (CVE-2015-7692)(CVE-2015-7692)|ntp-4.2.6p5-10.el6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.x86_64.rpm" />
+    </rule>
+    <rule no="252" cve="CVE-2015-7701" vulName="NTP CRYPTO_ASSOC 内存泄漏导致拒绝服务漏洞 (CVE-2015-7701)" ruleDesc="影响RedHat5/6/7" judgment="NTP CRYPTO_ASSOC 内存泄漏导致拒绝服务漏洞 (CVE-2015-7701)(CVE-2015-7701)|ntp-4.2.6p5-10.el6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.x86_64.rpm" />
+    </rule>
+    <rule no="253" cve="CVE-2015-7702" vulName="NTP AutoKey恶意消息拒绝服务漏洞 (CVE-2015-7702)" ruleDesc="影响RedHat5/6/7" judgment="NTP AutoKey恶意消息拒绝服务漏洞 (CVE-2015-7702)(CVE-2015-7702)|ntp-4.2.6p5-10.el6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.x86_64.rpm" />
+    </rule>
+    <rule no="254.1" cve="CVE-2016-0800" vulName="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】(CVE-2016-0800)|openssl-0.9.8e-39.el5_11.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="redhat5" />
+      <soft oper="&gt;=" name="openssl" value="openssl-0.9.8e-39.el5_11.x86_64.rpm" />
+    </rule>
+    <rule no="254.2" cve="CVE-2016-0800" vulName="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】(CVE-2016-0800)|openssl-1.0.1e-42.el6_7.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-42.el6_7.4.x86_64.rpm" />
+    </rule>
+    <rule no="254.3" cve="CVE-2016-0800" vulName="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】(CVE-2016-0800)|openssl-1.0.1e-51.el7_2.4.x86_64.rpm|影响RedHat5/6/7，{openssl}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="openssl" value="openssl-1.0.1e-51.el7_2.4.x86_64.rpm" />
+    </rule>
+    <rule no="254.4" cve="CVE-2016-0800" vulName="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】(CVE-2016-0800)|openssl098e-0.9.8e-20.el6_7.1.x86_64.rpm|影响RedHat5/6/7，{openssl098e}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="openssl098e" value="openssl098e-0.9.8e-20.el6_7.1.x86_64.rpm" />
+    </rule>
+    <rule no="254.5" cve="CVE-2016-0800" vulName="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】" ruleDesc="影响RedHat5/6/7" judgment="OpenSSL SSLv2协议&amp;#34;Drown&amp;#34;漏洞(CVE-2016-0800)【原理扫描】(CVE-2016-0800)|openssl098e-0.9.8e-29.el7_2.3.x86_64.rpm|影响RedHat5/6/7，{openssl098e}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="openssl098e" value="openssl098e-0.9.8e-29.el7_2.3.x86_64.rpm" />
+    </rule>
+    <rule no="255.1" cve="CVE-2015-1799" vulName="ntpd参考实现拒绝服务漏洞(CVE-2015-1799)" ruleDesc="影响RedHat6/7" judgment="ntpd参考实现拒绝服务漏洞(CVE-2015-1799)(CVE-2015-1799)|ntp-4.2.6p5-5.el6.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-5.el6.x86_64.rpm" />
+    </rule>
+    <rule no="255.2" cve="CVE-2015-1799" vulName="ntpd参考实现拒绝服务漏洞(CVE-2015-1799)" ruleDesc="影响RedHat6/7" judgment="ntpd参考实现拒绝服务漏洞(CVE-2015-1799)(CVE-2015-1799)|ntp-4.2.6p5-22.el7.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-22.el7.x86_64.rpm" />
+    </rule>
+    <rule no="256.1" cve="CVE-2015-7704" vulName="NTP Kiss-o&amp;#39;-Death拒绝服务漏洞 (CVE-2015-7704)" ruleDesc="影响RedHat6/7" judgment="NTP Kiss-o&amp;#39;-Death拒绝服务漏洞 (CVE-2015-7704)(CVE-2015-7704)|ntp-4.2.6p5-5.el6_7.2.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-5.el6_7.2.x86_64.rpm" />
+    </rule>
+    <rule no="256.2" cve="CVE-2015-7704" vulName="NTP Kiss-o&amp;#39;-Death拒绝服务漏洞 (CVE-2015-7704)" ruleDesc="影响RedHat6/7" judgment="NTP Kiss-o&amp;#39;-Death拒绝服务漏洞 (CVE-2015-7704)(CVE-2015-7704)|ntp-4.2.6p5-19.el7_1.3.x86_64.rpm|影响RedHat6/7，{ntp}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-19.el7_1.3.x86_64.rpm" />
+    </rule>
+    <rule no="257" cve="CVE-2015-7852" vulName="NTP ntpq atoascii() 内存破坏漏洞 (CVE-2015-7852)" ruleDesc="影响RedHat5/6/7" judgment="NTP ntpq atoascii() 内存破坏漏洞 (CVE-2015-7852)(CVE-2015-7852)|ntp-4.2.6p5-10.el6.x86_64.rpm|影响RedHat5/6/7，{ntp}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="ntp" value="ntp-4.2.6p5-10.el6.x86_64.rpm" />
+    </rule>
+    <rule no="258" cve="CVE-2006-5794" vulName="OpenSSH sshd Privilege Separation Monitor 未明漏洞" ruleDesc="影响RedHat4" judgment="OpenSSH sshd Privilege Separation Monitor 未明漏洞(CVE-2006-5794)|openssh-3.9p1-8.RHEL4.17.1.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="Redhat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.17.1.x86_64.rpm" />
+    </rule>
+    <rule no="259" cve="CVE-2006-5051" vulName="Portable OpenSSH GSSAPI远程代码执行漏洞(CVE-2006-5051)" ruleDesc="影响RedHat4" judgment="Portable OpenSSH GSSAPI远程代码执行漏洞(CVE-2006-5051)(CVE-2006-5051)|openssh-3.9p1-8.RHEL4.17.x86_64.rpm|影响RedHat4，{openssh}">
+      <series name="series" value="Redhat4" />
+      <soft oper="&gt;=" name="openssh" value="openssh-3.9p1-8.RHEL4.17.x86_64.rpm" />
+    </rule>
+    <rule no="260.1" cve="CVE-2015-5600" vulName="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)" ruleDesc="影响RedHat6/7" judgment="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)(CVE-2015-5600)|openssh-5.3p1-114.el6_7.x86_64.rpm|影响RedHat6/7，{openssh}">
+      <series name="series" value="Redhat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-114.el6_7.x86_64.rpm" />
+    </rule>
+    <rule no="260.3" cve="CVE-2015-5600" vulName="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)" ruleDesc="影响RedHat6/7" judgment="Openssh MaxAuthTries限制绕过漏洞(CVE-2015-5600)(CVE-2015-5600)|openssh-6.6.1p1-22.el7.x86_64.rpm|影响RedHat6/7，{openssh}">
+      <series name="series" value="Redhat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-22.el7.x86_64.rpm" />
+    </rule>
+    <rule no="261" cve="CVE-2016-0778" vulName="OpenSSH roaming_common.c堆缓冲区溢出漏洞(CVE-2016-0778)" ruleDesc="影响RedHat7" judgment="OpenSSH roaming_common.c堆缓冲区溢出漏洞(CVE-2016-0778)(CVE-2016-0778)|openssh-6.6.1p1-23.el7_2.ppc64.rpm|影响RedHat7，{openssh}">
+      <series name="series" value="Redhat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-23.el7_2.ppc64.rpm" />
+    </rule>
+    <rule no="262.2" cve="CVE-2010-5107" vulName="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)" ruleDesc="影响RedHat5/6" judgment="OpenSSH默认服务器配置拒绝服务漏洞(CVE-2010-5107)(CVE-2010-5107)|openssh-5.3p1-94.el6.x86_64.rpm|影响RedHat5/6，{openssh}">
+      <series name="series" value="Redhat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-94.el6.x86_64.rpm" />
+    </rule>
+    <rule no="263.1" cve="CVE-2015-6564" vulName="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)" ruleDesc="影响RedHat6/7" judgment="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)(CVE-2015-6564)|openssh-5.3p1-117.el6.x86_64.rpm|影响RedHat6/7，{openssh}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-117.el6.x86_64.rpm" />
+    </rule>
+    <rule no="263.3" cve="CVE-2015-6564" vulName="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)" ruleDesc="影响RedHat6/7" judgment="OpenSSH sshd mm_answer_pam_free_ctx释放后重利用漏洞(CVE-2015-6564)(CVE-2015-6564)|openssh-6.6.1p1-22.el7.ppc64.rpm|影响RedHat6/7，{openssh}">
+      <series name="series" value="redhat7" />
+      <soft oper="&gt;=" name="openssh" value="openssh-6.6.1p1-22.el7.ppc64.rpm" />
+    </rule>
+    <rule no="264" cve="CVE-2015-5352" vulName="OpenSSH &amp;#39;x11_open_helper()&amp;#39;函数安全限制绕过漏洞(CVE-2015-5352)" ruleDesc="影响RedHat5/6" judgment="OpenSSH &amp;#39;x11_open_helper()&amp;#39;函数安全限制绕过漏洞(CVE-2015-5352)(CVE-2015-5352)|openssh-5.3p1-117.el6.x86_64.rpm|影响RedHat5/6，{openssh}">
+      <series name="series" value="redhat6" />
+      <soft oper="&gt;=" name="openssh" value="openssh-5.3p1-117.el6.x86_64.rpm" />
+    </rule>
+    <rule no="265.1" cve="CVE-2016-1993" vulName="HP System Management Homepage安全漏洞(CVE-2016-1993)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1993)(CVE-2016-1993)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="265.3" cve="CVE-2016-1993" vulName="HP System Management Homepage安全漏洞(CVE-2016-1993)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1993)(CVE-2016-1993)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="265.5" cve="CVE-2016-1993" vulName="HP System Management Homepage安全漏洞(CVE-2016-1993)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1993)(CVE-2016-1993)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="265.7" cve="CVE-2016-1993" vulName="HP System Management Homepage安全漏洞(CVE-2016-1993)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1993)(CVE-2016-1993)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="266.1" cve="CVE-2016-1994" vulName="HP System Management Homepage安全漏洞(CVE-2016-1994)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1994)(CVE-2016-1994)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="266.3" cve="CVE-2016-1994" vulName="HP System Management Homepage安全漏洞(CVE-2016-1994)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1994)(CVE-2016-1994)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="266.5" cve="CVE-2016-1994" vulName="HP System Management Homepage安全漏洞(CVE-2016-1994)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1994)(CVE-2016-1994)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="266.7" cve="CVE-2016-1994" vulName="HP System Management Homepage安全漏洞(CVE-2016-1994)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1994)(CVE-2016-1994)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="267.1" cve="CVE-2016-1995" vulName="HP System Management Homepage安全漏洞(CVE-2016-1995)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1995)(CVE-2016-1995)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="267.3" cve="CVE-2016-1995" vulName="HP System Management Homepage安全漏洞(CVE-2016-1995)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1995)(CVE-2016-1995)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="267.5" cve="CVE-2016-1995" vulName="HP System Management Homepage安全漏洞(CVE-2016-1995)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1995)(CVE-2016-1995)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="267.7" cve="CVE-2016-1995" vulName="HP System Management Homepage安全漏洞(CVE-2016-1995)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1995)(CVE-2016-1995)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="268.1" cve="CVE-2016-1996" vulName="HP System Management Homepage安全漏洞(CVE-2016-1996)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1996)(CVE-2016-1996)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat4" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="268.3" cve="CVE-2016-1996" vulName="HP System Management Homepage安全漏洞(CVE-2016-1996)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1996)(CVE-2016-1996)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat5" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="268.5" cve="CVE-2016-1996" vulName="HP System Management Homepage安全漏洞(CVE-2016-1996)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1996)(CVE-2016-1996)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat6" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="268.7" cve="CVE-2016-1996" vulName="HP System Management Homepage安全漏洞(CVE-2016-1996)" ruleDesc="影响RedHat4/5/6/7" judgment="HP System Management Homepage安全漏洞(CVE-2016-1996)(CVE-2016-1996)|hpsmh-7.5.0-4.rpm|影响RedHat4/5/6/7，{hpsmh}">
+      <series name="series" value="RedHat7" />
+      <soft oper="&gt;=" name="hpsmh" value="hpsmh-7.5.0-4.rpm" />
+    </rule>
+    <rule no="270" cve="CVE-2014-1692" vulName="OpenSSH‘hash_buffer’函数缓冲区溢出漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH‘hash_buffer’函数缓冲区溢出漏洞(CVE-2014-1692)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HPUX11.31" />
+      <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
+    </rule>
+    <rule no="271" cve="CVE-2013-4548" vulName="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH ‘mm_newkeys_from_blob’函数权限许可和访问控制漏洞(CVE-2013-4548)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HPUX11.31" />
+      <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
+    </rule>
+    <rule no="272" cve="CVE-2014-2653" vulName="OpenSSH‘verify_host_key’函数输入验证漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH‘verify_host_key’函数输入验证漏洞(CVE-2014-2653)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HPUX11.31" />
+      <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
+    </rule>
+    <rule no="273" cve="CVE-2014-2532" vulName="OpenSSH 权限许可和访问控制漏洞" ruleDesc="影响HPUX11.31" judgment="OpenSSH 权限许可和访问控制漏洞(CVE-2014-2532)|HP-UX Secure Shell-A.06.20.012|影响HPUX11.31，{HP-UX SECURE SHELL}">
+      <series name="series" value="HPUX11.31" />
+      <soft oper="&gt;=" name="HP-UX SECURE SHELL" value="HP-UX Secure Shell-A.06.20.012" />
+    </rule>
+  </rules>
+      <users>
+  	  <user name="AIX" value="卫延伟"> </user>
+  	  <user name="SUSE" value="李远、申俊"> </user>
+  	  <user name="REDHAT" value="康中伟"> </user>
+  	  <user name="HPUX" value="卫延伟"> </user>
+  	  <user name="DATABASE" value="彭庆军"> </user>
+  	  <user name="WAS" value="彭庆军"> </user>
+  	  <user name="NET" value="邵保华"> </user>
+  	  <user name="SEC" value="邵保华"> </user>
+  </users>
+  <domains>
+  	   <domain name="北环核心域">
+  	   	 <value>10.96.16.0/24</value>
+		 <value>10.96.18.0/24</value>
+		 <value>10.96.19.0/24</value>
+		 <value>10.87.21.0/24</value>
+		 <value>10.87.31.0/24</value>
+  	   </domain>
+  	   <domain name="商贸路核心域">
+		 <value>10.96.160.0/24</value>
+		 <value>10.96.161.0/24</value>
+		 <value>10.96.168.0/24</value>
+		 <value>10.96.169.0/24</value>
+		 <value>10.97.33.0/24</value>
+  	   </domain>
+  	   <domain name="经分核心域">
+		 <value>10.97.186.0/24</value>
+		 <value>10.87.19.0/24</value>
+		 <value>10.87.25.0/24</value>
+		 <value>10.97.192.0/24</value>
+  	   </domain>
+  	   <domain name="客服核心域">
+		<value>10.87.32.0/24</value>
+		<value>10.96.94.0/25</value>
+		<value>10.87.92.0/24</value>
+		<value>10.87.93.0/24</value>
+		<value>10.96.93.128/25</value>
+		<value>10.96.237.0/25</value>
+		<value>10.96.205.0/25</value>
+  	   </domain>
+  	   <domain name="西区核心域">
+		<value>10.93.160.0/24</value>
+		<value>10.93.161.0/24</value>
+		<value>10.93.168.0/24</value>
+		<value>10.93.166.0/24</value>
+		<value>10.93.167.0/24</value>
+		<value>10.93.169.0/24</value>
+  	   </domain>
+	   <domain name="北环内部接口域">
+	   	<value>10.96.20.0/24</value>
+		<value>10.87.20.0/24</value>
+	   </domain>
+	   <domain name="商贸路内部接口域">
+		<value>10.96.170.0/24</value>
+		<value>10.97.34.0/24</value>
+	   </domain>
+	   <domain name="西区内部接口域">
+		<value>10.93.170.0/24</value>
+	   </domain>
+	   <domain name="北环外部接口域">
+		<value>10.96.22.0/24</value>
+	   </domain>
+	   <domain name="商贸路外部接口域">
+		<value>10.96.172.0/24</value>
+	   </domain>
+	   <domain name="北环互联网接口域">
+		<value>10.96.24.0/24</value>
+		<value>10.87.111.128/28</value>
+	   </domain>
+	   <domain name="商贸路互联网接口域">
+		<value>10.96.164.0/24</value>
+	   </domain>
+	   <domain name="西区互联网接口域">
+		<value>10.93.164.0/24</value>
+	   </domain>
+	   <domain name="经分爬虫互联网域">
+		<value>10.87.24.0/25</value>
+	   </domain>
+	   <domain name="业务支撑网终端">
+		<value>10.96.21.0/24</value>
+		<value>10.96.214.0/24</value>
+	   </domain>
+	   <domain name="厂家终端">
+		<value>10.96.17.0/24</value>
+		<value>10.96.23.0/24</value>
+		<value>10.87.18.0/24</value>
+		<value>10.87.23.0/24</value>
+	   </domain>
+	   <domain name="北环测试开发域">
+		<value>10.87.30.128/25</value>
+	   </domain>
+	   <domain name="商贸路测试开发域">
+		<value>10.87.30.0/25</value>
+	   </domain>
+	   <domain name="西区测试开发域">
+		<value>10.97.85.0/24</value>
+	   </domain>
+	   <domain name="经分跳板机">
+		<value>10.87.17.0/24</value>
+	   </domain>
+	   <domain name="客服域控服务器">
+		<value>10.87.45.192/28</value>
+	   </domain>
+  </domains>
+</root>
